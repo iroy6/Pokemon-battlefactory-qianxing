@@ -117,4 +117,4 @@ npm run test:runtime     # 检查模拟器和 GIA 的启动、对战流程
 
 ## 许可
 
-原创代码采用 [MIT](LICENSE)。第三方素材、字体及模拟器的来源、许可和署名集中在 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。本项目为非官方同人作品。
+第三方素材、字体及模拟器的来源、许可和署名集中在 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。本项目为非官方同人作品。
