@@ -1,7 +1,5 @@
 第三方素材与许可
 
-本项目原创游戏代码采用根目录 LICENSE 中的 MIT 许可。宝可梦名称、形象、第三方图像、位图字形和模拟器上游代码不在该许可范围内。
-
 来源
 
 - PokéAPI：物种与招式数据、图像。https://github.com/PokeAPI/pokeapi 和 https://github.com/PokeAPI/sprites
