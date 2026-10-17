@@ -1,0 +1,35 @@
+{
+  "name": "battle-factory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "宝可梦对战工厂：离线网页版、Lua 模拟器与千星奇域 v7.1",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "workspaces": ["web"],
+  "scripts": {
+    "start": "npm run dev:web",
+    "dev:web": "npm run dev --workspace @battle-factory/web",
+    "build:web": "npm run build --workspace @battle-factory/web",
+    "preview:web": "npm run preview --workspace @battle-factory/web",
+    "test:web": "npm test --workspace @battle-factory/web",
+    "start:simulator": "node simulator/start.cjs",
+    "setup:simulator": "node simulator/tools/setup-upstream.cjs",
+    "build:simulator": "node simulator/tools/build-preview.cjs",
+    "build:lua": "node simulator/tools/build.cjs",
+    "build:data": "npm run build:data --workspace @battle-factory/web",
+    "build:qianxing": "node qianxing/tools/package.mjs",
+    "test": "node tools/test.cjs",
+    "test:runtime": "node tools/verify-runtime.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "beyond-simulator-web": "0.4.1",
+    "esbuild": "0.25.12",
+    "fengari": "0.1.5",
+    "pixi.js": "8.20.0",
+    "protobufjs": "8.7.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,29 @@
+# Local installations and simulator source/build caches
+node_modules/
+.integrations/
+simulator/.cache/
+simulator/dist/
+web/dist/
+
+# Local reports, user saves and calibration output
+.local/
+records/
+qianxing/校准输出-*/
+*.log
+*.gil
+*.zip
+*.bak
+*.tmp
+.save-archive/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.agents/
+.codex/
+

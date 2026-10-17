@@ -1,0 +1,92 @@
+{
+  "source": "PokeAPI/sprites",
+  "commit": "0dc105d5b12416932f29b594078282ab4be045f5",
+  "path": "sprites/types/generation-iv/heartgold-soulsilver",
+  "files": [
+    {
+      "name": "Normal",
+      "id": 1,
+      "sha256": "e91f3d26a9b75500c7764313e09b0a0e19976ae92b09af509e102c85d3eeb6c1"
+    },
+    {
+      "name": "Fighting",
+      "id": 2,
+      "sha256": "741f041744b69911059d0146e9bc1926f89202380af8cffdf52a4bfe0c225a1d"
+    },
+    {
+      "name": "Flying",
+      "id": 3,
+      "sha256": "0bf4d1192a71d3df1410231599feb5c91d5d46749a2c3593fe88cf329d451034"
+    },
+    {
+      "name": "Poison",
+      "id": 4,
+      "sha256": "6ef40d9b32ea04c265248b6cb84bce56eb0be2a551d7bed53ea3a3ccf0387816"
+    },
+    {
+      "name": "Ground",
+      "id": 5,
+      "sha256": "8a92d21696737cde282e8a909269c9eb7c3d459b6c5923beae4550b0ca9708d1"
+    },
+    {
+      "name": "Rock",
+      "id": 6,
+      "sha256": "7d60d01c009f3f3c238185e44edf322b34f77f4af62cebeabf96835fe0aae3aa"
+    },
+    {
+      "name": "Bug",
+      "id": 7,
+      "sha256": "af19360d9137b46652209b9f7832ff18bad9a3ff04688ec029251e97ee973837"
+    },
+    {
+      "name": "Ghost",
+      "id": 8,
+      "sha256": "40a312369f99f7011f7be7334d66ef6b8e684b58521c7e1fc2bd30041dc29b80"
+    },
+    {
+      "name": "Steel",
+      "id": 9,
+      "sha256": "d539dd5e7201baa64d4c5cd16bcafd48e423050908b1fea3791fcf92d479e15f"
+    },
+    {
+      "name": "Fire",
+      "id": 10,
+      "sha256": "66bf3014f2950ef5b5e140d7b2f5b58e49866dfd9dfec98f53755fb2879f2a0d"
+    },
+    {
+      "name": "Water",
+      "id": 11,
+      "sha256": "849b565becaf61fb8cdd8869e65940790c3f1613187e0cceabf84d720699b77b"
+    },
+    {
+      "name": "Grass",
+      "id": 12,
+      "sha256": "fb83edcbeea02e5f82fba52347003814b581597c15ebb0b9ad8c643ad47376ab"
+    },
+    {
+      "name": "Electric",
+      "id": 13,
+      "sha256": "d93bb660954105c52bb3ba3a83ddc8972e3c438da351debec43c76856160ce89"
+    },
+    {
+      "name": "Psychic",
+      "id": 14,
+      "sha256": "6292f31558846103b39db1a2f630d2ac01b087973a094be1b9a5730e5f0bbcbe"
+    },
+    {
+      "name": "Ice",
+      "id": 15,
+      "sha256": "42467075a358c9713f6cdad9118e844495d4d0f4f6fff0dfe1c1906219089288"
+    },
+    {
+      "name": "Dragon",
+      "id": 16,
+      "sha256": "1c24daad71f8888798fcfe1bc9a15d5f14961623ad10e01c5f3c04f76a331bf8"
+    },
+    {
+      "name": "Dark",
+      "id": 17,
+      "sha256": "ea259925c969fa69559352370345fd22c0d83ffa05cf5b78f1c5e6be7d032ceb"
+    }
+  ]
+}

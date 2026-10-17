@@ -1,0 +1,16 @@
+{
+  "name": "@battle-factory/web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Battle Factory browser game",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "preview": "node scripts/serve.cjs --preview",
+    "test": "node --test",
+    "build:data": "python scripts/data/build_rental_pools.py"
+  },
+  "devDependencies": { "esbuild": "0.25.12" }
+}

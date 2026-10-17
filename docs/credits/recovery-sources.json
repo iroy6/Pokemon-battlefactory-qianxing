@@ -1,0 +1,96 @@
+{
+  "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+  "assets": [
+    {
+      "name": "cheriberry",
+      "file": "cheri_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/cheri_berry.png",
+      "sha256": "cb1cafbcb09420dc8bf6b16c279b3a71feac5ded2439b3952d108106ed1143e1"
+    },
+    {
+      "name": "chestoberry",
+      "file": "chesto_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/chesto_berry.png",
+      "sha256": "20a6083e8cc4a2a7882b562125be7a57877fb52653978926c38f493f33f0db64"
+    },
+    {
+      "name": "pechaberry",
+      "file": "pecha_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/pecha_berry.png",
+      "sha256": "d6793bf91042c478b2b59619a27585e5041dde0b08afaef4945ef790a584179e"
+    },
+    {
+      "name": "rawstberry",
+      "file": "rawst_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/rawst_berry.png",
+      "sha256": "d9aec5b98afd2e3d6dbeb37d9bfce562717c068fde2c635fd0716d3f8dc1d738"
+    },
+    {
+      "name": "aspearberry",
+      "file": "aspear_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/aspear_berry.png",
+      "sha256": "70cb33566ed9992022220111299888cac8d11e42e5f743e7ee3e4582c31145d2"
+    },
+    {
+      "name": "leppaberry",
+      "file": "leppa_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/leppa_berry.png",
+      "sha256": "64441d46c54d180d7c6e1b8ac837f964fb05b1b76def06ad56c5eac609da994d"
+    },
+    {
+      "name": "oranberry",
+      "file": "oran_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/oran_berry.png",
+      "sha256": "aff49f199fe0bf1b661cacba57c69a7ef7bdeeeed583a603a36130b3d0a03404"
+    },
+    {
+      "name": "persimberry",
+      "file": "persim_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/persim_berry.png",
+      "sha256": "09736a13d683cee3a65b9f384b013bfa01146c540001e49c87cdb5e0e69d8c27"
+    },
+    {
+      "name": "lumberry",
+      "file": "lum_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/lum_berry.png",
+      "sha256": "14e05f4e60b9ea6d792369cac6fb292515eba3f1e3da641ea9bb6ae91e9def66"
+    },
+    {
+      "name": "sitrusberry",
+      "file": "sitrus_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/sitrus_berry.png",
+      "sha256": "1ea1d0027ca149ab2384a237c0d7e7e1e171b23d1beac20baee9146058be90cf"
+    },
+    {
+      "name": "liechiberry",
+      "file": "liechi_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/liechi_berry.png",
+      "sha256": "f8e1a2d50d7cf7a300f8065d4e8f9da2722be6af7b9e0112575ff21df1e6af95"
+    },
+    {
+      "name": "petayaberry",
+      "file": "petaya_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/petaya_berry.png",
+      "sha256": "418afc85378675ac58a784e2b549ac1cb5b27592c2f4edb8f4e1468541bbc680"
+    },
+    {
+      "name": "salacberry",
+      "file": "salac_berry.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/salac_berry.png",
+      "sha256": "a3181cd46cdb26c4cd5acb86181a32759133779168d0bc234ab612cec32f5d78"
+    },
+    {
+      "name": "focusband",
+      "file": "focus_band.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/items/icons/focus_band.png",
+      "sha256": "e621944731f94e22b3ad2fb3b1a98b202fa904a1937ccea782674c576f34436d"
+    },
+    {
+      "name": "blue_star",
+      "file": "blue_star.png",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/blue_star.png",
+      "sha256": "d1675d7ef89ce38c40197a8795255ee2c9e296ebca54e84adfd0b85de3f404e9"
+    }
+  ],
+  "adaptation": "GBA held-item choreography; item icon is an added identification cue."
+}

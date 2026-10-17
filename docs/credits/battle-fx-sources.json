@@ -1,0 +1,733 @@
+{
+  "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+  "assets": [
+    {
+      "name": "fire",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/fire.png",
+      "sha256": "6d547fd21ab13be12e64c7a40689dc9941cea28e77ff032238627f0e3dc27e82",
+      "width": 32,
+      "height": 256,
+      "mode": "P"
+    },
+    {
+      "name": "fire_plume",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/fire_plume.png",
+      "sha256": "c983a5c0e9f90d8fc0237730b0996114258887ce1aef5dfe293fbd37746cb374",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "spinning_fire",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/spinning_fire.png",
+      "sha256": "b6106401db459d7afe35f39725f0fd701df2b6df887a702dfdd39c94dfa054eb",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "bubble",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bubble.png",
+      "sha256": "de27df738f681bcf962f36dd991f95fe4099c07ad9c36dbacfa72b2c847c3900",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "bubble_burst",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bubble_burst.png",
+      "sha256": "611b447d91d3b1fc3d4ee3280f710a0a478caae657e08586a01b0bbe55cdd4ff",
+      "width": 16,
+      "height": 112,
+      "mode": "P"
+    },
+    {
+      "name": "water_droplet",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/water_droplet.png",
+      "sha256": "324db9f22a0674e515b306e9a3b2bb148de3111d35fb0548f34c2037b05d4b2d",
+      "width": 32,
+      "height": 256,
+      "mode": "P"
+    },
+    {
+      "name": "water_column",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/water_column.png",
+      "sha256": "b2d3eeb0c6e52da367070e2ec1cf0be564746afd3d83a602698db1b4be35536a",
+      "width": 16,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "electric_orbs",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/electric_orbs.png",
+      "sha256": "48ac380aae38e0f774914490d1637e291f311c7a3771b434d5aee3a8c430e6ea",
+      "width": 8,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "electricity",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/electricity.png",
+      "sha256": "47e031374352a8d36214ad7c59c3944bcd8eb8450302131491e9ebfeef62bc6b",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "leaf",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/leaf.png",
+      "sha256": "3d5157878012e1a14a75c5c8f9b3c777a2b8c0bd54de39d308708da306c6b7d3",
+      "width": 16,
+      "height": 144,
+      "mode": "P"
+    },
+    {
+      "name": "razor_leaf",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/razor_leaf.png",
+      "sha256": "be3f0557a9c412e809297b8096aa4adfde9c6ccbef241f7414a6c4d6c01aa391",
+      "width": 32,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "poison_bubble",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/poison_bubble.png",
+      "sha256": "d66d2dfb3b2953f3159044988a87b6328acb524dd169ac84d990a1d116d3ce88",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "toxic_bubble",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/toxic_bubble.png",
+      "sha256": "593530c199c0ab7e6bdf4b0736f97c57568c853d55dbd408e35e1c6bec747c7d",
+      "width": 16,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "ice_chunk",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/ice_chunk.png",
+      "sha256": "7fcdd6a5377b4c3fbbd5880a8bf4d11afdbbbb21567ac6e76692ad4ec4f88a0c",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "ice_spikes",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/ice_spikes.png",
+      "sha256": "26dda6bf91d657bc27964e372fa3a9468f6a77aef821ee17b8738ca17a15e841",
+      "width": 8,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "impact",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/impact.png",
+      "sha256": "8f2a0eb54120d2cc50d24ccd92e2934d9b5c94c13f008198b6306c193fd8721d",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "impact_2",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/impact_2.png",
+      "sha256": "47b46006e3c95bb5ba28e90509d837d048c3621252518da224e9794e5f9e68ec",
+      "width": 32,
+      "height": 192,
+      "mode": "P"
+    },
+    {
+      "name": "claw_slash",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/claw_slash.png",
+      "sha256": "a89d375ec58f5194540719ea505e1b5c6d8dabbd5ddbe3c55e21d2825b858ce3",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "claw_slash_2",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/claw_slash_2.png",
+      "sha256": "81a2e1cd9bf4ab8a2f8850eaf5ff4bb329c48bebed570e0f47c508704e476537",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "air_slash",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/air_slash.png",
+      "sha256": "8861ecaa802ecd38c459fa7338c8915c8d0c1a27352d26cd6fcc7e8cb5cd08a4",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "fangs",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/fangs.png",
+      "sha256": "e6f72d00cc042407ca731d2bf67f956ffe17d079363ec5366c21ed861b5726db",
+      "width": 32,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "ring",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/ring.png",
+      "sha256": "6d7a44c0a75b80d0a90c16b12fe5b06735494cbb45c88e274a7b637ea20751d9",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "guard_ring",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/guard_ring.png",
+      "sha256": "412f774e9ef912c196d6b9a5c4256eb3aa159dece90fe44aeb016774c974acd4",
+      "width": 64,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "sparkle_1",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/sparkle_1.png",
+      "sha256": "b6bf6c00adb78f7681c357f17e4cd95894c92201528363fd1734125d63edb185",
+      "width": 32,
+      "height": 256,
+      "mode": "P"
+    },
+    {
+      "name": "sparkle_3",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/sparkle_3.png",
+      "sha256": "463b809135e3c76dd3a092d9e53093f2518dddcaaed087b1db5fc82df52acafd",
+      "width": 16,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "green_sparkle",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/green_sparkle.png",
+      "sha256": "73ac7cbb49e4fef8b1879befa7ebb8c15cf04bd5a5b113ae0385e90fa5b7a299",
+      "width": 16,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "rocks",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/rocks.png",
+      "sha256": "19737d1c20f58c67da01fc637e17e71fc4d7045b8ff49c2e589d44facb460b2e",
+      "width": 32,
+      "height": 192,
+      "mode": "P"
+    },
+    {
+      "name": "music_notes",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/music_notes.png",
+      "sha256": "f5c913c23b9ebb3b025782516d5c356741d4877fdb98b4fc029b28156435b5de",
+      "width": 16,
+      "height": 96,
+      "mode": "P"
+    },
+    {
+      "name": "wisp_orb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/wisp_orb.png",
+      "sha256": "117e94dfea7e9eed00a6ac99aafe3a5bde54fde2050703bf381132aa8658f09e",
+      "width": 16,
+      "height": 112,
+      "mode": "P"
+    },
+    {
+      "name": "wisp_fire",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/wisp_fire.png",
+      "sha256": "7d767c48efb22c312bd10dc21e4858a0a5adae6582ea300cecb31559a5a50d78",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "pink_orb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/pink_orb.png",
+      "sha256": "aefea1587921c5f3b4e0d1887ec23419ddce090eb4ea52c1769bf64f5e9cfe6d",
+      "width": 8,
+      "height": 8,
+      "mode": "P"
+    },
+    {
+      "name": "bluegreen_orb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bluegreen_orb.png",
+      "sha256": "4d1e305bfafb6e8ddd0a67ec1d300b7951cfed90d6331cdc2cecab6ccf3c1111",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "hands_and_feet",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/hands_and_feet.png",
+      "sha256": "d3196d88d1c4793ad3e10ff5d4744cb4c076b055966591cfa0a384ab1b1a267c",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "sword",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/sword.png",
+      "sha256": "82ac4fcf06c0a770dc944c83834c1d8c532213d01259292407732d8326eba939",
+      "width": 32,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "seed",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/seed.png",
+      "sha256": "7fe919fe47d1f0dfb5baef48828761e54b2c99bc544aed1762a28dd97ff8cd3b",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "poison_powder",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/poison_powder.png",
+      "sha256": "71ef42ab2b9284536f9894c5b516e3fde9d2b66473b0e48b806e145540e5b202",
+      "width": 8,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "black_smoke",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/black_smoke.png",
+      "sha256": "2e95e06879fc7a91d1ea29b14baa97f5e5b640405fcbf0aca04197a389afa166",
+      "width": 32,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "gray_smoke",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/gray_smoke.png",
+      "sha256": "8222a21b4fb5bf5bdb2622c39e408be5386658102c8bcf3d131f128106602724",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "pink_heart_2",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/pink_heart_2.png",
+      "sha256": "29c1c46dd3d5484aaa02754d19c944a78536fc71941657aebaa0a737848ed0e8",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "protect",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/protect.png",
+      "sha256": "3f319ac47c59ecc92d981d9bb4c4299b037678c34f85898254fa1f6a7641da03",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "green_light_wall",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/green_light_wall.png",
+      "sha256": "1cc8b5d3fdddd08083a8971696e97854baa705679178471ac003aaa943050643",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "thin_ring",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/thin_ring.png",
+      "sha256": "aee5be1afe2cc4f5d5605e3437a0f2a685bc4f55afe71a9b337099d55b13c64c",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "cross_impact",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/cross_impact.png",
+      "sha256": "98b6560114359b9a5092e1e52c3dc5c4488dbd996557f4c59359dfc825fb470f",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "bone",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bone.png",
+      "sha256": "b6ed71292649acdc6c99a9315e47ad97f7c17dc34dbfebd95a7ec669139a963e",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "needle",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/needle.png",
+      "sha256": "979862f33b2ccba13214f26234add6f43234d93e9f8adc44ae4413200e6aedc6",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "leer",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/leer.png",
+      "sha256": "0a65b153c97af0fe74c3219e942aaefa251e120349a44c76ac0cb18a365fc040",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "z",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/z.png",
+      "sha256": "4754accee063f61d6164603cb94fbb1cd320bcf4efbe10be90d3cf2842ff6000",
+      "width": 16,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "clapping",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/clapping.png",
+      "sha256": "d19d785e8f7c429edbefea0bee64cb788909c6bfede64a22dfb7a91002a03360",
+      "width": 16,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "amnesia",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/amnesia.png",
+      "sha256": "a3977417b1601f6a1a227a89c877af729007affc9eff6e77e272798e17e2879d",
+      "width": 32,
+      "height": 256,
+      "mode": "P"
+    },
+    {
+      "name": "bent_spoon",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bent_spoon.png",
+      "sha256": "2c3969001f99482ce1462f7d4177d76c9f94650efc5ce24fdff81219e432afff",
+      "width": 16,
+      "height": 192,
+      "mode": "P"
+    },
+    {
+      "name": "vine",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/vine.png",
+      "sha256": "3323d8702b4ecf235eacfb22116d049d789273fc991a666e7596f81e29b7f68e",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "spore",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/spore.png",
+      "sha256": "8ae04f16e7e867a94de03c5a2aa809f01cda63e933606ec3a0133e4596936537",
+      "width": 16,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "mist_cloud",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/mist_cloud.png",
+      "sha256": "324c3725682790ccc4fbe5d79d3bdaa48ed3826dcbb7e706c59bcd8ad1529d7e",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "sunlight",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/sunlight.png",
+      "sha256": "ac83333cdc1190c519fe11d3a60777d3b2b53dd4a38b16535d339fd832cbc64c",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "shadow_ball",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/shadow_ball.png",
+      "sha256": "c5d6442e40756112517cd87c7741d6d28e45e30313516c573661c2c4caa33c86",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "gold_ring",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/gold_ring.png",
+      "sha256": "3cfe9860c48bf65fdfae03d04710704d2363ef41ffda01bc2fdc9ca632a9ac84",
+      "width": 16,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "moon",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/moon.png",
+      "sha256": "95509d463e7401241bd4955875cc3b23f306e43a16f6da40bf9f64989acdcf2a",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "finger",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/finger.png",
+      "sha256": "8ec5567b1402bd463970ebfc385fb4e8600b8f94bc93939aaca40e757b883e62",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "anger",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/anger.png",
+      "sha256": "44e19c83eb304309ad4dfff5a364a5bee47e68c9c302dd09a4278b478eba1a91",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "thought_bubble",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/thought_bubble.png",
+      "sha256": "efce8f418b04619f16919e3ba84d98d6c092810822706b01dc12f6e6f2405000",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "roots",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/roots.png",
+      "sha256": "085fbb67a415cdff54c0462cc36835de29f033554805f8bb6b9bf934fbc71e23",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "item_bag",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/item_bag.png",
+      "sha256": "b5ca9866c2206cca42b00195f73ec55cca88f58d95830ad3021b8cf7abef5974",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "rapid_spin",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/rapid_spin.png",
+      "sha256": "6bcf048fef4003881d17bfada155674e595c4f77e73c53769a99cc145d214797",
+      "width": 32,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "white_feather",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/white_feather.png",
+      "sha256": "deafef1a961c8e03dcbf8ef8d26a8c780712e1f315e06950fda10dd7d7ce985d",
+      "width": 32,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "meteor",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/meteor.png",
+      "sha256": "37d7905d88c2266f54bb0ca91b51ed6930d36a30544740f6d32d12a7e6cd59de",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "metal_sound_waves",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/metal_sound_waves.png",
+      "sha256": "19849306a887142056183c7e978fd4f3dca630d4ad33cf6c9adb2e48d22fc9b8",
+      "width": 32,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "splash",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/splash.png",
+      "sha256": "db90e869ce648af0f3bfe65c7cfcf71edcaa94320f314187aaef4345c1a116fc",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "green_spike",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/green_spike.png",
+      "sha256": "94df5e76aac72ff57476c58838718e79f08d0a66b8f1351a2fc0a9605a4f3007",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "bird",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/bird.png",
+      "sha256": "b880f67f9fb7b2210357b0515789ce85ad6fd522ac6a485de7419c5f05791d12",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "cut",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/cut.png",
+      "sha256": "1afb812f767d52a17ff042f46a419cce15c0bc5a83c38d33792ac4b874053ae1",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "slash",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/slash.png",
+      "sha256": "5cfb2406b6e1d564fe87ac205fce48246867003c504c8d6f76becb2a4b3507c3",
+      "width": 32,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "purple_scratch",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/purple_scratch.png",
+      "sha256": "2d113dc4d35207114f14521c39255bbaa60a9535894fa098849bc2b1986bef8b",
+      "width": 32,
+      "height": 96,
+      "mode": "P"
+    },
+    {
+      "name": "eye",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/eye.png",
+      "sha256": "73943361aa9dd0a31de3ab8dd2ae14d38194e9f8fcbf46f8c8c441258cd5e04e",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "lightbulb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/lightbulb.png",
+      "sha256": "532a134c39436bf36cd2594d463e781ed3796c511167689d8bdd5badcdae7e9c",
+      "width": 16,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "closing_eye",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/closing_eye.png",
+      "sha256": "3cad8a4d603008ddec420ed23f782899ab925cf93f9b999b3ba40c2a2e662f27",
+      "width": 32,
+      "height": 48,
+      "mode": "P"
+    },
+    {
+      "name": "hollow_orb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/hollow_orb.png",
+      "sha256": "9f1c4bc8bb6311437770302eb4cb988d6c16ac7b871325ebcb1551584f683a65",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "water_orb",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/water_orb.png",
+      "sha256": "a99f3c4c09c6dbdad9339e6848352c6b329d91c106bd7c682c9dbfb0f9ece228",
+      "width": 16,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "metal_ball",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/metal_ball.png",
+      "sha256": "d40e44bd21fbadfed96268632fe1663397979a2ac763737da4cd2db36b27a411",
+      "width": 16,
+      "height": 16,
+      "mode": "P"
+    },
+    {
+      "name": "pink_petal",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/pink_petal.png",
+      "sha256": "acb06f4aadc26b0d39550ba8a4c4033f495f65cca42bda3120465b46a03ab15f",
+      "width": 8,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "confetti",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/confetti.png",
+      "sha256": "4e64731a946c35d7d4be956cf5318da347997d8b9f173d757a4d6db67343f351",
+      "width": 8,
+      "height": 96,
+      "mode": "P"
+    },
+    {
+      "name": "flying_dirt",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/flying_dirt.png",
+      "sha256": "f80c97253031f42ad734b0da132cd3cb5cd883e2689dd0172bf60113c447ddf2",
+      "width": 32,
+      "height": 32,
+      "mode": "P"
+    },
+    {
+      "name": "small_red_eye",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/small_red_eye.png",
+      "sha256": "69946c9324aa9d50039123d9c1feda60670baf99efce61394e3f124e8ef7f847",
+      "width": 8,
+      "height": 8,
+      "mode": "P"
+    },
+    {
+      "name": "tendrils",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/tendrils.png",
+      "sha256": "76ef7d4904d9eeed63e3ac9d55232a44ad0fb0893db41e4bb6f058b1c3f1d35b",
+      "width": 64,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "clamp",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/clamp.png",
+      "sha256": "068775e5aa753e1ba8adfad9473a573ecae4eba690166c4ac66aab981d48499e",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "reticle",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/reticle.png",
+      "sha256": "faefae3132113cacb7bba50711bf33e79a3c1839cd7d24cc7cc431b09cd793e3",
+      "width": 16,
+      "height": 80,
+      "mode": "P"
+    },
+    {
+      "name": "lightning",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/lightning.png",
+      "sha256": "26a0fbf2622cf32ddff6193e8bfaccfa5a655ad85737292b0d1466caba934763",
+      "width": 32,
+      "height": 160,
+      "mode": "P"
+    },
+    {
+      "name": "blue_light_wall",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/blue_light_wall.pal",
+      "tiles": "green_light_wall.png",
+      "paletteSha256": "41987051c9397584362180ff42db22c9e31e03bb2bb2f7849aea1a0abec370ae",
+      "sha256": "0a7de5ef299cc7ae784dd511578e4f84e5f2f78d63339cd6780aeb6b261c2ead",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "gray_light_wall",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/gray_light_wall.pal",
+      "tiles": "green_light_wall.png",
+      "paletteSha256": "ec412af2987f283ed60d507042ff40ff5df13fe2383de1f88cc9fc2b48d079df",
+      "sha256": "89a291714d1eb3f66a6f3643d357c606abd4dde7cffd427a9a6869d094a087fb",
+      "width": 64,
+      "height": 64,
+      "mode": "P"
+    },
+    {
+      "name": "sleep_powder",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/sleep_powder.pal",
+      "tiles": "poison_powder.png",
+      "paletteSha256": "4da4c82afc9d47e584d6e913330a65385cff862956c651eca6e17b76bd7eaacc",
+      "sha256": "4ad2f4135ef2ae4b4b69863da00db61ad235fd96e2e4694203dd2415fc58231c",
+      "width": 8,
+      "height": 128,
+      "mode": "P"
+    },
+    {
+      "name": "stun_spore",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/731ad5bfd6e6f265508d0efcca0ba42f9dcf5881/graphics/battle_anims/sprites/stun_spore.pal",
+      "tiles": "poison_powder.png",
+      "paletteSha256": "dd0fa3ef5ef918695a742de7a3a014c71166109136dbd3667b73206d8731c752",
+      "sha256": "7512cc8bd8b6934aab6b0bb789d29bd753edf74c53ebde148f8f74b72deae24e",
+      "width": 8,
+      "height": 128,
+      "mode": "P"
+    }
+  ]
+}

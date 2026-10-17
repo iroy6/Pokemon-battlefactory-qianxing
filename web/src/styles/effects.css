@@ -1,0 +1,8 @@
+.battle-fx{position:absolute;inset:0;width:100%;height:100%;z-index:4;pointer-events:none;image-rendering:pixelated}
+.battle-sprite{transform-origin:50% 90%}
+.battle-sprite[data-fainted=true],.battle-sprite[data-underground=true]{opacity:0;animation:none}
+body[data-motion=off] .battle-sprite{animation:none}
+
+@media(prefers-reduced-motion:reduce){body:not([data-motion=on]) .battle-sprite{animation:none}}
+/* Idle motion comes from the sprite frames. Do not stretch the pixel artwork. */
+@media(max-width:599px){.topbar nav{gap:7px}.topbar .quiet{font-size:9px}.brand{font-size:14px;gap:6px}}

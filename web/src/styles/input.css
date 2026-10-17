@@ -1,0 +1,15 @@
+/* Input affordances follow the active device; the same actions remain clickable. */
+[hidden]{display:none!important}
+body:not([data-input="touch"]) .float-pad,.modal-open .float-pad{display:none}
+body:not([data-input="touch"]) .app-shell{width:calc(720px * var(--game-scale) + 4px);padding:0}
+body:not([data-input="touch"]) .topbar{padding:0 10px}
+.topbar #options-button{min-height:34px;min-width:82px}
+.options-menu{display:flex;flex-direction:column;gap:10px;padding:8px 4px}
+.options-menu button{min-height:44px}
+.modal-pad button{min-height:44px;min-width:82px}
+.pad-selected{outline:2px solid #e4ad35!important;outline-offset:-2px}
+.battle-bottom{justify-content:space-between}
+.battle-input-hint{margin-left:auto;font-size:12px;padding:2px 8px;color:#50675d}
+body[data-input="touch"] [data-action="battle-menu"]{display:none}
+body[data-input="touch"] .battle-input-hint{display:none}
+@media(pointer:coarse){.team-slot nav button{min-height:44px;min-width:44px}.summary-tabs{height:44px}.summary-moves button{min-height:44px}}

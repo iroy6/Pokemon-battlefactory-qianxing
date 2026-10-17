@@ -1,0 +1,610 @@
+[
+  {
+    "num": 952,
+    "name": "狠辣椒",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/SCOVILLAIN.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 12,
+    "size": [
+      1152,
+      96
+    ],
+    "uniqueFrames": 12,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 952,
+    "name": "狠辣椒",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/SCOVILLAIN.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 18,
+    "size": [
+      1728,
+      96
+    ],
+    "uniqueFrames": 13,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 678,
+    "name": "超能妙喵",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/MEOWSTIC.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 102,
+    "size": [
+      5814,
+      57
+    ],
+    "uniqueFrames": 102,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 997,
+    "name": "冻脊龙",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/ARCTIBAX.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 14,
+    "size": [
+      1344,
+      96
+    ],
+    "uniqueFrames": 8,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 691,
+    "name": "毒藻龙",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/DRAGALGE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 42,
+    "size": [
+      4032,
+      96
+    ],
+    "uniqueFrames": 14,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 691,
+    "name": "毒藻龙",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/DRAGALGE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 70,
+    "size": [
+      6720,
+      96
+    ],
+    "uniqueFrames": 32,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 997,
+    "name": "冻脊龙",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/ARCTIBAX.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 79,
+    "size": [
+      4503,
+      57
+    ],
+    "uniqueFrames": 33,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 678,
+    "name": "超能妙喵",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/MEOWSTIC.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 102,
+    "size": [
+      5712,
+      56
+    ],
+    "uniqueFrames": 102,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 936,
+    "name": "红莲铠骑",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/ARMAROUGE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      768,
+      96
+    ],
+    "uniqueFrames": 8,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 658,
+    "name": "甲贺忍蛙",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/GRENINJA.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 24,
+    "size": [
+      2304,
+      96
+    ],
+    "uniqueFrames": 24,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 985,
+    "name": "吼叫尾",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/SCREAMTAIL.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      440,
+      55
+    ],
+    "uniqueFrames": 5,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 658,
+    "name": "甲贺忍蛙",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/GRENINJA.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 24,
+    "size": [
+      2304,
+      96
+    ],
+    "uniqueFrames": 24,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 987,
+    "name": "振翼发",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/FLUTTERMANE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      552,
+      69
+    ],
+    "uniqueFrames": 5,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 936,
+    "name": "红莲铠骑",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/ARMAROUGE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 48,
+    "size": [
+      4608,
+      96
+    ],
+    "uniqueFrames": 23,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 991,
+    "name": "铁包袱",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/IRONBUNDLE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 21,
+    "size": [
+      2016,
+      96
+    ],
+    "uniqueFrames": 11,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 985,
+    "name": "吼叫尾",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/SCREAMTAIL.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 82,
+    "size": [
+      5658,
+      69
+    ],
+    "uniqueFrames": 15,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 991,
+    "name": "铁包袱",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/IRONBUNDLE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 46,
+    "size": [
+      4002,
+      87
+    ],
+    "uniqueFrames": 7,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 987,
+    "name": "振翼发",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/FLUTTERMANE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 96,
+    "size": [
+      6912,
+      72
+    ],
+    "uniqueFrames": 48,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 992,
+    "name": "铁臂膀",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/IRONHANDS.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 30,
+    "size": [
+      2460,
+      82
+    ],
+    "uniqueFrames": 12,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 655,
+    "name": "妖火红狐",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/DELPHOX.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 176,
+    "size": [
+      19008,
+      108
+    ],
+    "uniqueFrames": 176,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 998,
+    "name": "戟脊龙",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/BAXCALIBUR.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 32,
+    "size": [
+      3360,
+      105
+    ],
+    "uniqueFrames": 21,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1009,
+    "name": "波荡水",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/WALKINGWAKE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 66,
+    "size": [
+      5676,
+      86
+    ],
+    "uniqueFrames": 12,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1020,
+    "name": "破空焰",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/GOUGINGFIRE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      768,
+      96
+    ],
+    "uniqueFrames": 4,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 992,
+    "name": "铁臂膀",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/IRONHANDS.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 140,
+    "size": [
+      14980,
+      107
+    ],
+    "uniqueFrames": 80,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1021,
+    "name": "猛雷鼓",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/RAGINGBOLT.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      768,
+      96
+    ],
+    "uniqueFrames": 4,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 655,
+    "name": "妖火红狐",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/DELPHOX.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 176,
+    "size": [
+      19360,
+      110
+    ],
+    "uniqueFrames": 176,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1020,
+    "name": "破空焰",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/GOUGINGFIRE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 76,
+    "size": [
+      6840,
+      90
+    ],
+    "uniqueFrames": 48,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 998,
+    "name": "戟脊龙",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/BAXCALIBUR.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 77,
+    "size": [
+      9240,
+      120
+    ],
+    "uniqueFrames": 36,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1009,
+    "name": "波荡水",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/WALKINGWAKE.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 90,
+    "size": [
+      13230,
+      147
+    ],
+    "uniqueFrames": 31,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 988,
+    "name": "爬地翅",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/SLITHERWING.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 88,
+    "size": [
+      6600,
+      75
+    ],
+    "uniqueFrames": 11,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1010,
+    "name": "铁斑叶",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/IRONLEAVES.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 45,
+    "size": [
+      3060,
+      68
+    ],
+    "uniqueFrames": 10,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1018,
+    "name": "铝钢桥龙",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/ARCHALUDON.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 8,
+    "size": [
+      768,
+      96
+    ],
+    "uniqueFrames": 4,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1010,
+    "name": "铁斑叶",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/IRONLEAVES.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 62,
+    "size": [
+      5952,
+      96
+    ],
+    "uniqueFrames": 11,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1021,
+    "name": "猛雷鼓",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/RAGINGBOLT.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 79,
+    "size": [
+      7584,
+      96
+    ],
+    "uniqueFrames": 32,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 988,
+    "name": "爬地翅",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/SLITHERWING.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 92,
+    "size": [
+      7084,
+      77
+    ],
+    "uniqueFrames": 14,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1017,
+    "name": "厄诡椪",
+    "view": "back",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Back/OGERPON.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 20,
+    "size": [
+      1380,
+      69
+    ],
+    "uniqueFrames": 8,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1018,
+    "name": "铝钢桥龙",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/ARCHALUDON.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 54,
+    "size": [
+      5184,
+      96
+    ],
+    "uniqueFrames": 16,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  },
+  {
+    "num": 1017,
+    "name": "厄诡椪",
+    "view": "front",
+    "url": "https://raw.githubusercontent.com/ChromeValiant/Pokemon-Essentials-21-With-Unofficial-EBDX/f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80/Graphics/Pokemon/Front/OGERPON.png",
+    "revision": "f8a55baf8cc05a5ae78bf7af9b8737e0fe1b5d80",
+    "frames": 63,
+    "size": [
+      4851,
+      77
+    ],
+    "uniqueFrames": 20,
+    "status": "ok",
+    "frameMs": 100,
+    "timingBasis": "EBDX default: 2 update ticks * frameSkip 2 / 40 Hz = 100 ms; no species speed override in PBS/EBDX/pokemon.txt"
+  }
+]

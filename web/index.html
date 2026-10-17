@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173e43">
+  <title>对战工厂 · Battle Factory</title>
+  <link rel="icon" type="image/png" href="./assets/ui/poke-ball.png">
+  <link rel="stylesheet" href="./app.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <span class="brand">对战工厂</span>
+      <nav><button class="quiet" id="options-button">菜单</button></nav>
+    </header>
+    <div class="screen-host"><main id="app" tabindex="-1" aria-label="游戏区域"></main></div>
+  </div>
+  <dialog id="detail-dialog"><div class="dialog-top"><span id="dialog-title">宝可梦资料</span></div><div id="dialog-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+

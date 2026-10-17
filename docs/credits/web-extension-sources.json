@@ -1,0 +1,1247 @@
+{
+  "sources": [
+    "https://play.pokemonshowdown.com/sprites/",
+    "https://github.com/PokeAPI/sprites"
+  ],
+  "sprites": [
+    {
+      "num": 24,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/24.png",
+      "sha256": "e1e6013ecbc9f958b49207e41f317a91d6015e1b5f914a0484505b6225d87644",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 31,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/31.png",
+      "sha256": "03c3ef86a671320ba1fc68aaa9dae721659535912a33f660631b76bd9c7113eb",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 34,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/34.png",
+      "sha256": "d93a7d7437072ab6afd99c6fe20283058364ee519cbfdbaa242211ce897d7b08",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 36,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/36.png",
+      "sha256": "e007d3c60d2043ecd3041a6c22fb6f1f2ed058f569177a631c93106bcdb4e20d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 45,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/45.png",
+      "sha256": "a3ec7af021f39ed3ab0cfc231f4c6bbbbd3d4ca227718091c8b4c37caad81178",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 49,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/49.png",
+      "sha256": "fbb2683c43e4610e812115d6d05aef2d19ed60402c32c814b728ea7c5940ea58",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 51,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/51.png",
+      "sha256": "e4beb0d158f12410067b744d97495ccbc07e22d5705c21f10f24da59cc474c64",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 53,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/53.png",
+      "sha256": "db2f5ac5243d891b871c1be8d12eb62669ed5cee55bd04fb2c47bbd334176858",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 76,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/76.png",
+      "sha256": "f3bde683085dd15acb618ca095d4642ac22311ce13b62ebb0d2ff8433d7b054c",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 89,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/89.png",
+      "sha256": "7ac1da72f7fb509caeaa8691b0e7058e247b4cd18f16f0530dd8b73c7ffcfb82",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 105,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/105.png",
+      "sha256": "c31393ca7e1f4cc19dc9f6c2bf3e159a0bccbbef382b10b0147ec16b6b62fb7c",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 123,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/123.png",
+      "sha256": "1a22434a5beb711ee1f2c6f02414c086e582ec60e78999e4612d4bcc0c3e4ef2",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 143,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/143.png",
+      "sha256": "6af2f47cc9cf6d29c971840aa4c4157c3ed666393de84fac16cb8bb3647b8008",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 151,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/151.png",
+      "sha256": "167f615afd36a63f4be4df127184d7262125b03c6a7c4971809afd5a30c5c00d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 154,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/154.png",
+      "sha256": "76afb7b7965696f7043bf008b51d87c2b1c270f54840a8f3b427344383e4d862",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 169,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/169.png",
+      "sha256": "3517796aa312950dc0d86da44e053e61a36500008308775f571819b9575f7f72",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 171,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/171.png",
+      "sha256": "4633b14e6d97c8ef07e8e966d5308a2d7f879282049cd6c52b5ea7b7bc00e7a7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 178,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/178.png",
+      "sha256": "f4ab598a1df98428e385bc08ed01b3492f37e597b269d535c9a72748cdb08ae0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 184,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/184.png",
+      "sha256": "453927e5753e2689288eb197599890900e0ab08b8603d4f7590677d44e40c880",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 186,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/186.png",
+      "sha256": "70da79eebd8fab25e33d508422c755e59f8b880f6b13c83631a50a33e239fbac",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 196,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/196.png",
+      "sha256": "511ac2cf1bf0806c7c76fc9152fbfcc5ab11c45ca619395617036240be5c2c60",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 197,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/197.png",
+      "sha256": "4b998be92bf20183211caa295b37b91a72e77b38d3e9a924e732eeedcd4be09f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 200,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/200.png",
+      "sha256": "33a3b53819613d92b6168e68aae193b31eaa27b930bf0b45d1794aa48d36f7f7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 207,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/207.png",
+      "sha256": "1293247507c67321ad1e25c3e8fdcbfe0c240b0221feb1be21b1d2f0d550347d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 210,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/210.png",
+      "sha256": "9495286b0a1516a45cdbf9817cc9c968df9f018244ebdc8d6019e764527b889d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 215,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/215.png",
+      "sha256": "b644895a50f86a4f61e75892ec8db6cd42f854edc1779ff32cd1946a59cc04ce",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 227,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/227.png",
+      "sha256": "4ddaf46eea0f8a695f46c450a77bef29dd15c62c0bbab80a34d4f0b473af9af6",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 251,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/251.png",
+      "sha256": "2aa47d779a428e346af6696685247751467012a7bba54740c3a1319dccd88758",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 262,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/262.png",
+      "sha256": "bae19ea7e6784a9aa8e47ce334f658e1562d4afbc50ed3471647555fe5c3aa54",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 297,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/297.png",
+      "sha256": "00e4c7e21cc533b2e8cfaa84b4cc5475076180b6aa1cc251935341ce3d245bc3",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 306,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/306.png",
+      "sha256": "0c9a003a7416293842cba61a1312f46f3ac0d3aa81969e7b8cfcb36bb2e6341d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 317,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/317.png",
+      "sha256": "d107ebd8f85a20f42a5232408e4f09d6478eb26cb097ec6a0281048dbff8b8e7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 321,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/321.png",
+      "sha256": "4496981c97693d0a2d5397b805eddad71ecf02a34d253386a481dc6581cd5787",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 334,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/334.png",
+      "sha256": "4361e7ca039e8921de10bafa0f12c3b98aa70cf077ceac071ef695b15c85f4f4",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 337,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/337.png",
+      "sha256": "c6720d1d4d7b475509db50cd699c679fad0b8e36a8f5d492689d3205c005005e",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 344,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/344.png",
+      "sha256": "6493ada78fb1bc79da12444b5143b681f3c88c61399f49ac45faf8ff72020335",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 362,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/362.png",
+      "sha256": "eb86395a37cf22af7a84aceeda1adf7146181e243a30064c3ebc34ee4648b88a",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 365,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/365.png",
+      "sha256": "7f2d9b6c99eb13d0769cc6ae911ce6e81a563a2462dd075196ddc1ffe7510898",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 375,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/375.png",
+      "sha256": "871fe43032e76fbe4f6a88df75fdd3d07d0a7d040c2489137f646b4b3c8b22a1",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 385,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/385.png",
+      "sha256": "bc4600ab24122abdb72c0922fe175b648f5282e87ddcea55611f1222de3068c7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 386,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/386.png",
+      "sha256": "6fec61cd052f52e337c5bc61c58f95bd7178a30620467432b432c76288bea098",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 389,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/389.png",
+      "sha256": "906d4873710fef725c72f0919d34fcb7a55c0f31185ea9fb29b0d0aad584525f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 398,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/398.png",
+      "sha256": "60818aeb79eef7aacfe90a8e2d2f0d821ddf06b63c06f6940db187b24789fae0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 405,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/405.png",
+      "sha256": "5b3c7f36b2c2f22ac510c1fba7b0a839cd2d5c310b573e3dc0ba693d8a1874dc",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 411,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/411.png",
+      "sha256": "52ff2f37dba64dd0f93697257ad32853205b65a45b876610f12a64666c43e087",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 414,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/414.png",
+      "sha256": "b78783ef36e505cc07948c72906dde54e6c9a130122e443d34a2712d1a37b205",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 416,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/416.png",
+      "sha256": "6e850d9ea71d2c72a4325c5fead3e1cb9c6d3141ad959ca2a342d78d81b8f65d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 429,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/429.png",
+      "sha256": "88fd3db7f0935e2a0d30098fc0781cfb78815124b524e53165cfab53b3b2d659",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 430,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/430.png",
+      "sha256": "ff07a87fc6e0877a3ccdc967108efbcf5fde2f77bdc3be54b0aee1ae67350efe",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 437,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/437.png",
+      "sha256": "9e80cd0b0d77c73bf422b663ae8fb70e158b836c47f6acca29b231cd88d8627b",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 442,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/442.png",
+      "sha256": "16a18191c12359122bef881d2436fc08b1d281ba54585141da65bce5b5cb3113",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 477,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/477.png",
+      "sha256": "c84dacac34e7064ccba855a4d0747ea1d513d1b0779dec0c9214905b2a8ce943",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 478,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/478.png",
+      "sha256": "b7ac926a5d92f92b44b5f882927ae528ba97fd3e43b37de5647e0b0b15257765",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 480,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/480.png",
+      "sha256": "cca5473938bf72ce90c470ebb98c8e9a09d035fd06c6ddc8c399141178a7f590",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 481,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/481.png",
+      "sha256": "2f01eab7207145425d14bd40b547b7539f689c6003856913e49ac5fa04fb67b0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 482,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/482.png",
+      "sha256": "6264eb82d39c08502e10828e853b69931781ef1cf0d7d796ed769098d000813c",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 490,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/490.png",
+      "sha256": "5df810868f1457ec88bae30a618023dbb70750fdf13c7a5309b964d8a553f0b9",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 491,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/491.png",
+      "sha256": "1fcb651df705670334c22c7676ceec55aec2faeb48edfb44b1434058a9fa9a07",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 492,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/492.png",
+      "sha256": "44308b3e612854cd402f65b28b442701502e6c9fe76ca5a4f87e5665ec8277d4",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 494,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/494.png",
+      "sha256": "a6369a2976914cb73df3aa621d1e1ffdcdb2308e9ce850c4438024ab9bd20f4f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 497,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/497.png",
+      "sha256": "0cabd48e068d7b4fdc58e753f8101688ba4a650b0353af3b1db477f67e83a017",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 505,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/505.png",
+      "sha256": "d8c7cb19fef5951fa1c6845cd20b87a22d9fa3dad4d5fb349d3db50f37a7b526",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 508,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/508.png",
+      "sha256": "4cbe10d0d4d485c78edd559aae008c25d990b97ae4a59773fd86636cef951d99",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 518,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/518.png",
+      "sha256": "1677c770baaca09d729a2e81126c263ee4f6e573dd459ce1bf5ffc5fa7d8848e",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 523,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/523.png",
+      "sha256": "32c9ac0848a57c9a854f900f4ba6c384fff9e778b8e4a4418cad00a543f76c39",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 534,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/534.png",
+      "sha256": "533672a78f00cd293d44cd1eaa9280ce832b74226ee2ec3db170937ef4d3464b",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 538,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/538.png",
+      "sha256": "968861aec6a751005cb5223a0dde01e3f3d4cd280282712c52cebe5ba8bbb4df",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 539,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/539.png",
+      "sha256": "2d563a05f8f8332f06b0be39785527e6de0f60e5284d9e74472b8b48b282d5fe",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 560,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/560.png",
+      "sha256": "f342690002925bfe2223e2f32193139a9591838f23a778aa070f33c0759efacd",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 561,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/561.png",
+      "sha256": "3bd5e070a386f7e042fc887657a9c17ad9741dda70adc6deca347a55d5a435db",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 567,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/567.png",
+      "sha256": "c497e92ddd7885735f052a418eff02d3fd46f35ef7b5a63bafd6438460efbfa7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 604,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/604.png",
+      "sha256": "a24192070d9e331afd5aae17c63716271e28ed921b666400a9c88e81575f95ef",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 609,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/609.png",
+      "sha256": "f4547252e86a5ffc2453bf80a586a17f0a3f4b6c0eeb8d68bb0d35909b62afc1",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 618,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/618.png",
+      "sha256": "dce4c2118e568262977a93af26ab7a2916bb87dc0dd09204966c90eab2e544c8",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 620,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/620.png",
+      "sha256": "360cb6bd817b3100e67cc8fa21c82c7d192c75c4596b58590ad8c0797c57e611",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 635,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/635.png",
+      "sha256": "09c581278c22822441c07b633a3c3dbbc42e2278463be692227d23e8da497ce0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 637,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/637.png",
+      "sha256": "77285c7dc81b3be2902f22d7a426980eee52ce7d05407e0ea3563aab36f40af9",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 638,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/638.png",
+      "sha256": "aba87dd41e8500c5b008096bc8944fec901901900ee4d7fec5a6551c018d57b1",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 639,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/639.png",
+      "sha256": "d5382575c7a5e6961e3d8c50547bc67eed00c57c6c736edecc9b9294a1bf2cfe",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 640,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/640.png",
+      "sha256": "8526f7a026c1e46c276f1be947f4f3ed2d36eca81f7d8df78fc2b369fb63b01f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 645,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/645.png",
+      "sha256": "205c3cb792669600e19cbcbaacdf039284eb24cb0fa3ba2aee0250c911174d53",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 647,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/647.png",
+      "sha256": "5f102261cec24d2fac2307fbabf40538eeeb32585f83d96811bcf0f13963ce1f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 648,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/648.png",
+      "sha256": "cd12652f73a9d2fa40f62aefe34098738232b1f20aa95d77ef6d39171a5a6670",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 649,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/649.png",
+      "sha256": "76b74d9ff0e295f282554afe594547ded8809ae19b0075db099e3ad85543654f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 652,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/652.png",
+      "sha256": "9413fe7185951ee1d373cdbd0623df9b0cdbd29e800d123497351f727a19deb7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 655,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/655.png",
+      "sha256": "c14fca718729e672b621dfff86d2b2aad591b8cfa12cad790d40edefd9775bb8",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 658,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/658.png",
+      "sha256": "4e8d0c19dd25a391b6cf40c0e6ac23e5f036fe8b6ee5029e6a458d9be30e18d7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 663,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/663.png",
+      "sha256": "e42e69312c4e7aaacdb6ac4315bb82ae16b034881214b65ebb6cff22e9d843c1",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 675,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/675.png",
+      "sha256": "1911c3b1605f28a80397d13689fd3474c10184fc9a5445c2d06d3a04a57c8afd",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 678,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/678.png",
+      "sha256": "e2b02104e881bf162bbe82285b64f21d71be508b017601d001d3c15fa3cdea8d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 691,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/691.png",
+      "sha256": "7d842b582a86681ff04722bcc3a50967d5241c938516cd35df95cd5cd3af23a2",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 695,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/695.png",
+      "sha256": "103f383ab81f019681ebf845b1a4ac41e10a3657868c1ff0d9da6eb3c91a3df6",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 703,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/703.png",
+      "sha256": "f58ea54779367e93a6dbe7a71c16f0039a484d36cdfca34e8d47fc823094dd06",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 705,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/705.png",
+      "sha256": "9c26445740caf7e681bbf8996ed943157f271864d3755b7429a0900b2b269efa",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 706,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/706.png",
+      "sha256": "5ad1c400e79b195b954f1645ee3438c8d1f12b6beb3b8f681431d7c97ba971a8",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 709,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/709.png",
+      "sha256": "eb86aafdd9a48d74dc4c9e0ab465bf42d446990d81fef3df26371e864a15d735",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 713,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/713.png",
+      "sha256": "732cc28b7885ef768771816fb7d28f1dda6665e7fb0a60a6da5d3b621b4307cc",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 719,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/719.png",
+      "sha256": "ad89f71f5b59da6a3c2178a819be6b93ede4e1c9db14316ee34ad908fa49aa7b",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 721,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/721.png",
+      "sha256": "8730c366a79f2b612270d2b18ec2290707c662b6cdb2fe8890289fe6459aff24",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 723,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/723.png",
+      "sha256": "2efa688f737080d544f83fa91d411105b6a96dbe3b1a9f2f4f3ad0a8d75343ba",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 726,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/726.png",
+      "sha256": "4362ab61e35edad1ec83b3b2928542aa6083fb78d11a17ecc0d48f45c534327d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 727,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/727.png",
+      "sha256": "42284f008c48f4b052bedcac29790b57cff4289017e1885bd3b025b9580e797b",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 729,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/729.png",
+      "sha256": "97b8141f869ae1a10c76092d095d43d362078f83daa93e8fd5991410b747f8b3",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 730,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/730.png",
+      "sha256": "946c072ec0375ab142f95572e56a518e2e9b886d8f28ca6f6753bae0dda0d5fd",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 733,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/733.png",
+      "sha256": "99862c86325317efcbf2d577b82d5b37e7d38b2f9886f8875b8e3974b5419097",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 738,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/738.png",
+      "sha256": "265c32f70d744fe1078c80925aa3f0bcdca36900b2cf8b7fbc870d47fed769e5",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 743,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/743.png",
+      "sha256": "b9b860cb03f17003c87602f977a7840a817d8951a81f43bd15cc9d65857cf4f0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 745,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/745.png",
+      "sha256": "f3f113823eca0353995c88dd16331b8ef36be03024df200442e72f3c2865e999",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 750,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/750.png",
+      "sha256": "8436ac593e440bc0937c03ae20ad61308766c6aa400e5802330a93bb32ebf1d7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 772,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/772.png",
+      "sha256": "051912cb9a2db999a56c1b11d7355e0414f50b36826241aa2549790cfab5ba32",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 783,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/783.png",
+      "sha256": "3caecea1af12f81df7028209924bb03ea268c182576b3a2f5394fc5540de394c",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 784,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/784.png",
+      "sha256": "018ba7c433088cd8dd71b78e182139f9bef52c08a614f9a06aff8fc25ab28963",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 793,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/793.png",
+      "sha256": "6baeff81dfedc9e2e98b885ef64534c5077f5c42809687a6870d72c80dd7a70e",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 794,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/794.png",
+      "sha256": "04ae4cc283962e89390d8c0b639e289445389ff4965ba8a411bf0cbe3846261d",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 795,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/795.png",
+      "sha256": "19302db9e6b247f7bbe3d0946de702bcb4546c47770ae938ebe95d67195e888f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 796,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/796.png",
+      "sha256": "30fa0b2ffc19cd667af2d9d9ab90864b567c4b062d9557a84b3b1c3d4b9e9d46",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 797,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/797.png",
+      "sha256": "a739d1590c0c1a7f9824f3449dfdf4362064e8236cb44577e39359d0679dabe9",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 798,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/798.png",
+      "sha256": "c7b13e80bb3b960920861fe0e18ff76f61b57f1af92fe730559b1985ea49be3c",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 799,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/799.png",
+      "sha256": "0b5ed7ddc1295de2725979f40c2bc96826318b98036ca191e816fb8d119206c0",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 800,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/800.png",
+      "sha256": "2cd5654ff2b4d9dcbdb8f216fdc5e712030f2741d7960ab19974befb7859ff03",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 802,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/802.png",
+      "sha256": "f788d9a90809e198c3e50ed60ff0bed2b6e30cbc4465277f3e89b068a780b8de",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 805,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/805.png",
+      "sha256": "e919801dda16fcfb8497aaf9a6d8c6339110426b13ba5477c31c835fc0e4eddb",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 806,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/806.png",
+      "sha256": "cd9135a6589b78c8e41b580cf8f2ba17f827fe0ab893fe51a45489c659afa8c7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 807,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/807.png",
+      "sha256": "55545b0f99804180458d61ef09646aa75ab4571231a496227ae71ed827284c1f",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 809,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/809.png",
+      "sha256": "6c5281066a3596fb8f9a0d65664b8ccfb1d7fc0f316e15b45ed8c972ff7ed533",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 811,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/811.png",
+      "sha256": "462fb0fcb6d1ceeec2c79c45ebda16d8da827a5273307d18ed0d626994663ce4",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 814,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/814.png",
+      "sha256": "76a3378164b764a9cb74cc2fc28f768e1f0dea54749d367271f3884dd6790532",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 817,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/817.png",
+      "sha256": "4f06d077d13814c2c42ccff965c7621c002aecc89a45f2b800a64198637935d4",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 823,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/823.png",
+      "sha256": "f9c33c9f1118abe02bd48dd65adb5b8864a5db46aa8348f28fded07ba6799e80",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 826,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/826.png",
+      "sha256": "1d8453a9a7b692dc8c601ccd42bd8c78040efbb2ccafbf51ab13addd3fde3f52",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 828,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/828.png",
+      "sha256": "4ea4b9913ebb8cc2f901fdce5254af09be9ebe09934b5ca5d4e8ed62f33e166a",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 839,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/839.png",
+      "sha256": "b01c208806324c43dfe759c0aa255ce802e01c405b4b45d1e458c27ccd0da1e1",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 844,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/844.png",
+      "sha256": "fb1cc55edfcd9ce0ab6b2ea6868567bc0cb2b8274edda378cad31740e077bf55",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 862,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/862.png",
+      "sha256": "98adb1ce0ce321271f6724272297adbb5a592b8868aa24cac5b05aab5c8a756e",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 863,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/863.png",
+      "sha256": "0165ba503b246c652ce6688fdb99f5ac86922fba715484989f95bc332214c2d7",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 873,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/873.png",
+      "sha256": "7628cff00d5f3ed6bcbf1046f23e7b397ca7b5ea2332d6d94b805465d5603538",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 880,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/880.png",
+      "sha256": "f2ad3ef5040f50f70a3812e4dc30718a9cc124331a48973680eb0bc87ebd5962",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 887,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/887.png",
+      "sha256": "388c8c9f85165456be2ff4e21b5952c34de39bdf65d5a761ded14145c1459e25",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 896,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/896.png",
+      "sha256": "e7519de690badb7abb4323a26591d41d37639c43964f621117addefed9a7dba5",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 897,
+      "view": "icon",
+      "url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/897.png",
+      "sha256": "47716db708fff6a03c1d1d7b41d73cfffc436425a3a1099d562d60a6b41301ce",
+      "kind": "game-menu-icon"
+    },
+    {
+      "num": 901,
+      "view": "icon",
+      "derivedFrom": "front/901.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 903,
+      "view": "icon",
+      "derivedFrom": "front/903.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 911,
+      "view": "icon",
+      "derivedFrom": "front/911.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 920,
+      "view": "icon",
+      "derivedFrom": "front/920.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 923,
+      "view": "icon",
+      "derivedFrom": "front/923.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 934,
+      "view": "icon",
+      "derivedFrom": "front/934.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 936,
+      "view": "icon",
+      "derivedFrom": "front/936.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 939,
+      "view": "icon",
+      "derivedFrom": "front/939.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 952,
+      "view": "icon",
+      "derivedFrom": "front/952.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 959,
+      "view": "icon",
+      "derivedFrom": "front/959.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 962,
+      "view": "icon",
+      "derivedFrom": "front/962.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 967,
+      "view": "icon",
+      "derivedFrom": "front/967.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 975,
+      "view": "icon",
+      "derivedFrom": "front/975.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 980,
+      "view": "icon",
+      "derivedFrom": "front/980.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 983,
+      "view": "icon",
+      "derivedFrom": "front/983.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 984,
+      "view": "icon",
+      "derivedFrom": "front/984.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 985,
+      "view": "icon",
+      "derivedFrom": "front/985.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 986,
+      "view": "icon",
+      "derivedFrom": "front/986.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 987,
+      "view": "icon",
+      "derivedFrom": "front/987.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 988,
+      "view": "icon",
+      "derivedFrom": "front/988.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 989,
+      "view": "icon",
+      "derivedFrom": "front/989.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 990,
+      "view": "icon",
+      "derivedFrom": "front/990.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 991,
+      "view": "icon",
+      "derivedFrom": "front/991.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 992,
+      "view": "icon",
+      "derivedFrom": "front/992.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 993,
+      "view": "icon",
+      "derivedFrom": "front/993.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 994,
+      "view": "icon",
+      "derivedFrom": "front/994.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 995,
+      "view": "icon",
+      "derivedFrom": "front/995.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 997,
+      "view": "icon",
+      "derivedFrom": "front/997.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 998,
+      "view": "icon",
+      "derivedFrom": "front/998.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1005,
+      "view": "icon",
+      "derivedFrom": "front/1005.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1006,
+      "view": "icon",
+      "derivedFrom": "front/1006.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1009,
+      "view": "icon",
+      "derivedFrom": "front/1009.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1010,
+      "view": "icon",
+      "derivedFrom": "front/1010.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1017,
+      "view": "icon",
+      "derivedFrom": "front/1017.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1018,
+      "view": "icon",
+      "derivedFrom": "front/1018.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1020,
+      "view": "icon",
+      "derivedFrom": "front/1020.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    },
+    {
+      "num": 1021,
+      "view": "icon",
+      "derivedFrom": "front/1021.png",
+      "kind": "sourced-pixel-thumbnail",
+      "normalization": "nearest neighbour, fit 40x30"
+    }
+  ]
+}

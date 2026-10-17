@@ -1,0 +1,3780 @@
+{
+  "format": "qxqy-simulator-save",
+  "version": 4,
+  "meta": {
+    "name": "宝可梦对战工厂 · Lua 同步版"
+  },
+  "activeAssetType": "server-control-template",
+  "serverLogic": {
+    "version": 1,
+    "rules": []
+  },
+  "controlGuidChanges": [],
+  "assets": {
+    "server": {
+      "layoutSchemaVersion": 2,
+      "version": 12,
+      "meta": {
+        "name": "对战工厂 · 游戏容器",
+        "assetType": "server-control-template",
+        "sourceFormat": "authoring",
+        "sourceFile": ""
+      },
+      "canvasId": "mobile-16-9",
+      "selectedId": "n1",
+      "root": {
+        "id": "sc1",
+        "kind": "server-container",
+        "name": "客户端控件容器",
+        "guid": 1073741850,
+        "giaRelatedGuids": [],
+        "active": true,
+        "visible": true,
+        "canControllerFocus": false,
+        "syncAllDevices": true,
+        "giaRaw": {
+          "genericField501": 0,
+          "footerField505": 0
+        },
+        "transformByPlatform": {
+          "KEYBOARD": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "TOUCHSCREEN": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_CONSOLE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_MOBILE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "n1",
+            "kind": "container",
+            "name": "BattleFactoryHost",
+            "guid": 1073741852,
+            "giaRelatedGuids": [],
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "giaRaw": {
+              "genericField501": 0,
+              "footerField505": 0
+            },
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0,
+                  "y": 0
+                },
+                "anchorMax": {
+                  "x": 1,
+                  "y": 1
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 0,
+                  "y": 0
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "children": [],
+            "scriptMappingIds": [],
+            "isolateNavigation": false,
+            "disableKeyEventPassthrough": true,
+            "disableCursorEventPassthrough": false,
+            "showCursor": false
+          }
+        ],
+        "scriptMappingIds": []
+      }
+    },
+    "client": {
+      "layoutSchemaVersion": 2,
+      "version": 2,
+      "meta": {
+        "name": "对战工厂 · 三个基础模板",
+        "assetType": "client-control-template",
+        "sourceFormat": "authoring",
+        "sourceFile": "",
+        "gameVersion": "7.1.0",
+        "giaOwnerUid": 114514,
+        "giaFileId": 1073741829,
+        "giaFileName": "客户端控件模板列表.gia",
+        "giaNextAssetIndex": 8,
+        "giaAssetIndexSchemaVersion": 1
+      },
+      "canvasId": "mobile-16-9",
+      "selectedId": "container-template",
+      "root": {
+        "id": "sc1",
+        "kind": "server-container",
+        "name": "客户端控件模板",
+        "guid": 0,
+        "giaRelatedGuids": [],
+        "active": true,
+        "visible": true,
+        "canControllerFocus": false,
+        "syncAllDevices": true,
+        "giaRaw": {
+          "genericField501": 0,
+          "footerField505": 0
+        },
+        "transformByPlatform": {
+          "KEYBOARD": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "TOUCHSCREEN": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_CONSOLE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "CONTROLLER_MOBILE": {
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "anchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "anchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "offset": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "x": 0,
+              "y": 0
+            },
+            "pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "pixel-template",
+            "kind": "image",
+            "name": "像素矩形",
+            "guid": 1073742110,
+            "giaRelatedGuids": [],
+            "giaInfoIndex": 4,
+            "giaInfoIndexSource": "authoring",
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "giaRaw": {
+              "genericField501": 0,
+              "footerField505": 0,
+              "imageSlotType": 0,
+              "imageField502": 1,
+              "imageField504": 1,
+              "imageField505": 1,
+              "imageField507": 2,
+              "imageFillType": 1
+            },
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 80,
+                  "y": 80
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 80,
+                  "y": 80
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 80,
+                  "y": 80
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 80,
+                  "y": 80
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "children": [],
+            "scriptMappingIds": [],
+            "imageSource": "StaticReference",
+            "imageType": null,
+            "imageId": 100001,
+            "imageColor": "#ffffffff",
+            "enableMask": false,
+            "enableSoftEdge": false,
+            "softEdgeMode": "Percentage",
+            "softEdgeWidthX": 8,
+            "softEdgeWidthY": 8,
+            "horizontalSoftRange": 85,
+            "verticalSoftRange": 85,
+            "enableFill": false,
+            "fillType": "Horizontal",
+            "fillHorizontalType": "Left",
+            "fillVerticalType": "Bottom",
+            "fillRadial90Type": "BottomLeft",
+            "fillRadialType": "Bottom",
+            "fillAmount": 1,
+            "reverseMaskArea": false
+          },
+          {
+            "id": "input-template",
+            "kind": "cursor",
+            "name": "输入区域",
+            "guid": 1073742111,
+            "giaRelatedGuids": [],
+            "giaInfoIndex": 7,
+            "giaInfoIndexSource": "authoring",
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "giaRaw": {
+              "genericField501": 0,
+              "footerField505": 0,
+              "cursorField501": 1
+            },
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": -300,
+                  "y": 140
+                },
+                "size": {
+                  "x": 150,
+                  "y": 50
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": -300,
+                  "y": 140
+                },
+                "size": {
+                  "x": 150,
+                  "y": 50
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": -300,
+                  "y": 140
+                },
+                "size": {
+                  "x": 150,
+                  "y": 50
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": -300,
+                  "y": 140
+                },
+                "size": {
+                  "x": 150,
+                  "y": 50
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "children": [],
+            "scriptMappingIds": [],
+            "raycastTarget": true
+          },
+          {
+            "id": "container-template",
+            "kind": "container",
+            "name": "布局容器",
+            "guid": 1073742112,
+            "giaRelatedGuids": [],
+            "giaInfoIndex": 2,
+            "giaInfoIndexSource": "authoring",
+            "active": true,
+            "visible": true,
+            "canControllerFocus": false,
+            "syncAllDevices": true,
+            "giaRaw": {
+              "genericField501": 0,
+              "footerField505": 0
+            },
+            "transformByPlatform": {
+              "KEYBOARD": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 520,
+                  "y": 320
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "TOUCHSCREEN": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 520,
+                  "y": 320
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_CONSOLE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 520,
+                  "y": 320
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "CONTROLLER_MOBILE": {
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "anchorMin": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "anchorMax": {
+                  "x": 0.5,
+                  "y": 0.5
+                },
+                "offset": {
+                  "x": 0,
+                  "y": 0
+                },
+                "size": {
+                  "x": 520,
+                  "y": 320
+                },
+                "pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            "children": [],
+            "scriptMappingIds": [],
+            "isolateNavigation": false,
+            "disableKeyEventPassthrough": false,
+            "disableCursorEventPassthrough": false,
+            "showCursor": false
+          }
+        ],
+        "scriptMappingIds": []
+      }
+    },
+    "scripts": [
+      {
+        "id": "1073742200",
+        "guid": 1073742200,
+        "path": "simulator/lua/battle_factory_app.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742201",
+        "guid": 1073742201,
+        "path": "simulator/lua/battle_factory_common_fx.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742202",
+        "guid": 1073742202,
+        "path": "simulator/lua/battle_factory_core.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742203",
+        "guid": 1073742203,
+        "path": "simulator/lua/battle_factory_effects.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742204",
+        "guid": 1073742204,
+        "path": "simulator/lua/battle_factory_effect_data.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742205",
+        "guid": 1073742205,
+        "path": "simulator/lua/battle_factory_feedback.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742206",
+        "guid": 1073742206,
+        "path": "simulator/lua/battle_factory_feedback_data.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742207",
+        "guid": 1073742207,
+        "path": "simulator/lua/battle_factory_graphics.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742208",
+        "guid": 1073742208,
+        "path": "simulator/lua/battle_factory_history.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742209",
+        "guid": 1073742209,
+        "path": "simulator/lua/battle_factory_input.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742105",
+        "guid": 1073742105,
+        "path": "simulator/lua/battle_factory_main.lua",
+        "source": "-- Generated entry. Script mapping 1073742105 mounts on server asset's client container n1.\nlocal app=require('default_import_file/simulator/lua/battle_factory_app')\nfunction OnStart() app.start(script) end\nfunction OnUpdate(dt) app.update(dt) end\nfunction Dispatch(action,index) app.dispatch(action,index) end\nfunction GetState() return app.state() end\n",
+        "controlId": "n1",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742211",
+        "guid": 1073742211,
+        "path": "simulator/lua/battle_factory_move_fx.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742212",
+        "guid": 1073742212,
+        "path": "simulator/lua/battle_factory_random.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742213",
+        "guid": 1073742213,
+        "path": "simulator/lua/art/battle_fx.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742214",
+        "guid": 1073742214,
+        "path": "simulator/lua/art/font.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742215",
+        "guid": 1073742215,
+        "path": "simulator/lua/art/icons.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742216",
+        "guid": 1073742216,
+        "path": "simulator/lua/art/mon_1.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742217",
+        "guid": 1073742217,
+        "path": "simulator/lua/art/mon_100.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742218",
+        "guid": 1073742218,
+        "path": "simulator/lua/art/mon_1005.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742219",
+        "guid": 1073742219,
+        "path": "simulator/lua/art/mon_1006.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742220",
+        "guid": 1073742220,
+        "path": "simulator/lua/art/mon_1009.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742221",
+        "guid": 1073742221,
+        "path": "simulator/lua/art/mon_101.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742222",
+        "guid": 1073742222,
+        "path": "simulator/lua/art/mon_1010.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742223",
+        "guid": 1073742223,
+        "path": "simulator/lua/art/mon_1017.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742224",
+        "guid": 1073742224,
+        "path": "simulator/lua/art/mon_1018.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742225",
+        "guid": 1073742225,
+        "path": "simulator/lua/art/mon_102.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742226",
+        "guid": 1073742226,
+        "path": "simulator/lua/art/mon_1020.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742227",
+        "guid": 1073742227,
+        "path": "simulator/lua/art/mon_1021.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742228",
+        "guid": 1073742228,
+        "path": "simulator/lua/art/mon_104.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742229",
+        "guid": 1073742229,
+        "path": "simulator/lua/art/mon_105.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742230",
+        "guid": 1073742230,
+        "path": "simulator/lua/art/mon_109.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742231",
+        "guid": 1073742231,
+        "path": "simulator/lua/art/mon_111.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742232",
+        "guid": 1073742232,
+        "path": "simulator/lua/art/mon_117.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742233",
+        "guid": 1073742233,
+        "path": "simulator/lua/art/mon_118.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742234",
+        "guid": 1073742234,
+        "path": "simulator/lua/art/mon_119.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742235",
+        "guid": 1073742235,
+        "path": "simulator/lua/art/mon_12.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742236",
+        "guid": 1073742236,
+        "path": "simulator/lua/art/mon_121.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742237",
+        "guid": 1073742237,
+        "path": "simulator/lua/art/mon_123.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742238",
+        "guid": 1073742238,
+        "path": "simulator/lua/art/mon_127.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742239",
+        "guid": 1073742239,
+        "path": "simulator/lua/art/mon_130.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742240",
+        "guid": 1073742240,
+        "path": "simulator/lua/art/mon_131.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742241",
+        "guid": 1073742241,
+        "path": "simulator/lua/art/mon_134.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742242",
+        "guid": 1073742242,
+        "path": "simulator/lua/art/mon_135.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742243",
+        "guid": 1073742243,
+        "path": "simulator/lua/art/mon_136.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742244",
+        "guid": 1073742244,
+        "path": "simulator/lua/art/mon_138.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742245",
+        "guid": 1073742245,
+        "path": "simulator/lua/art/mon_141.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742246",
+        "guid": 1073742246,
+        "path": "simulator/lua/art/mon_143.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742247",
+        "guid": 1073742247,
+        "path": "simulator/lua/art/mon_144.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742248",
+        "guid": 1073742248,
+        "path": "simulator/lua/art/mon_145.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742249",
+        "guid": 1073742249,
+        "path": "simulator/lua/art/mon_146.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742250",
+        "guid": 1073742250,
+        "path": "simulator/lua/art/mon_147.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742251",
+        "guid": 1073742251,
+        "path": "simulator/lua/art/mon_149.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742252",
+        "guid": 1073742252,
+        "path": "simulator/lua/art/mon_15.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742253",
+        "guid": 1073742253,
+        "path": "simulator/lua/art/mon_151.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742254",
+        "guid": 1073742254,
+        "path": "simulator/lua/art/mon_153.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742255",
+        "guid": 1073742255,
+        "path": "simulator/lua/art/mon_154.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742256",
+        "guid": 1073742256,
+        "path": "simulator/lua/art/mon_156.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742257",
+        "guid": 1073742257,
+        "path": "simulator/lua/art/mon_157.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742258",
+        "guid": 1073742258,
+        "path": "simulator/lua/art/mon_159.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742259",
+        "guid": 1073742259,
+        "path": "simulator/lua/art/mon_160.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742260",
+        "guid": 1073742260,
+        "path": "simulator/lua/art/mon_169.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742261",
+        "guid": 1073742261,
+        "path": "simulator/lua/art/mon_17.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742262",
+        "guid": 1073742262,
+        "path": "simulator/lua/art/mon_170.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742263",
+        "guid": 1073742263,
+        "path": "simulator/lua/art/mon_171.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742264",
+        "guid": 1073742264,
+        "path": "simulator/lua/art/mon_178.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742265",
+        "guid": 1073742265,
+        "path": "simulator/lua/art/mon_18.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742266",
+        "guid": 1073742266,
+        "path": "simulator/lua/art/mon_180.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742267",
+        "guid": 1073742267,
+        "path": "simulator/lua/art/mon_181.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742268",
+        "guid": 1073742268,
+        "path": "simulator/lua/art/mon_182.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742269",
+        "guid": 1073742269,
+        "path": "simulator/lua/art/mon_184.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742270",
+        "guid": 1073742270,
+        "path": "simulator/lua/art/mon_186.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742271",
+        "guid": 1073742271,
+        "path": "simulator/lua/art/mon_188.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742272",
+        "guid": 1073742272,
+        "path": "simulator/lua/art/mon_189.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742273",
+        "guid": 1073742273,
+        "path": "simulator/lua/art/mon_196.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742274",
+        "guid": 1073742274,
+        "path": "simulator/lua/art/mon_197.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742275",
+        "guid": 1073742275,
+        "path": "simulator/lua/art/mon_2.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742276",
+        "guid": 1073742276,
+        "path": "simulator/lua/art/mon_200.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742277",
+        "guid": 1073742277,
+        "path": "simulator/lua/art/mon_207.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742278",
+        "guid": 1073742278,
+        "path": "simulator/lua/art/mon_208.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742279",
+        "guid": 1073742279,
+        "path": "simulator/lua/art/mon_210.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742280",
+        "guid": 1073742280,
+        "path": "simulator/lua/art/mon_212.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742281",
+        "guid": 1073742281,
+        "path": "simulator/lua/art/mon_215.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742282",
+        "guid": 1073742282,
+        "path": "simulator/lua/art/mon_22.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742283",
+        "guid": 1073742283,
+        "path": "simulator/lua/art/mon_227.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742284",
+        "guid": 1073742284,
+        "path": "simulator/lua/art/mon_230.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742285",
+        "guid": 1073742285,
+        "path": "simulator/lua/art/mon_239.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742286",
+        "guid": 1073742286,
+        "path": "simulator/lua/art/mon_24.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742287",
+        "guid": 1073742287,
+        "path": "simulator/lua/art/mon_240.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742288",
+        "guid": 1073742288,
+        "path": "simulator/lua/art/mon_243.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742289",
+        "guid": 1073742289,
+        "path": "simulator/lua/art/mon_244.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742290",
+        "guid": 1073742290,
+        "path": "simulator/lua/art/mon_245.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742291",
+        "guid": 1073742291,
+        "path": "simulator/lua/art/mon_246.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742292",
+        "guid": 1073742292,
+        "path": "simulator/lua/art/mon_248.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742293",
+        "guid": 1073742293,
+        "path": "simulator/lua/art/mon_25.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742294",
+        "guid": 1073742294,
+        "path": "simulator/lua/art/mon_251.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742295",
+        "guid": 1073742295,
+        "path": "simulator/lua/art/mon_252.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742296",
+        "guid": 1073742296,
+        "path": "simulator/lua/art/mon_253.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742297",
+        "guid": 1073742297,
+        "path": "simulator/lua/art/mon_254.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742298",
+        "guid": 1073742298,
+        "path": "simulator/lua/art/mon_256.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742299",
+        "guid": 1073742299,
+        "path": "simulator/lua/art/mon_257.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742300",
+        "guid": 1073742300,
+        "path": "simulator/lua/art/mon_258.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742301",
+        "guid": 1073742301,
+        "path": "simulator/lua/art/mon_259.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742302",
+        "guid": 1073742302,
+        "path": "simulator/lua/art/mon_260.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742303",
+        "guid": 1073742303,
+        "path": "simulator/lua/art/mon_262.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742304",
+        "guid": 1073742304,
+        "path": "simulator/lua/art/mon_269.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742305",
+        "guid": 1073742305,
+        "path": "simulator/lua/art/mon_27.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742306",
+        "guid": 1073742306,
+        "path": "simulator/lua/art/mon_271.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742307",
+        "guid": 1073742307,
+        "path": "simulator/lua/art/mon_28.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742308",
+        "guid": 1073742308,
+        "path": "simulator/lua/art/mon_282.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742309",
+        "guid": 1073742309,
+        "path": "simulator/lua/art/mon_284.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742310",
+        "guid": 1073742310,
+        "path": "simulator/lua/art/mon_294.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742311",
+        "guid": 1073742311,
+        "path": "simulator/lua/art/mon_297.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742312",
+        "guid": 1073742312,
+        "path": "simulator/lua/art/mon_299.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742313",
+        "guid": 1073742313,
+        "path": "simulator/lua/art/mon_3.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742314",
+        "guid": 1073742314,
+        "path": "simulator/lua/art/mon_30.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742315",
+        "guid": 1073742315,
+        "path": "simulator/lua/art/mon_302.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742316",
+        "guid": 1073742316,
+        "path": "simulator/lua/art/mon_303.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742317",
+        "guid": 1073742317,
+        "path": "simulator/lua/art/mon_304.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742318",
+        "guid": 1073742318,
+        "path": "simulator/lua/art/mon_305.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742319",
+        "guid": 1073742319,
+        "path": "simulator/lua/art/mon_306.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742320",
+        "guid": 1073742320,
+        "path": "simulator/lua/art/mon_31.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742321",
+        "guid": 1073742321,
+        "path": "simulator/lua/art/mon_315.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742322",
+        "guid": 1073742322,
+        "path": "simulator/lua/art/mon_317.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742323",
+        "guid": 1073742323,
+        "path": "simulator/lua/art/mon_318.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742324",
+        "guid": 1073742324,
+        "path": "simulator/lua/art/mon_320.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742325",
+        "guid": 1073742325,
+        "path": "simulator/lua/art/mon_321.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742326",
+        "guid": 1073742326,
+        "path": "simulator/lua/art/mon_329.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742327",
+        "guid": 1073742327,
+        "path": "simulator/lua/art/mon_33.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742328",
+        "guid": 1073742328,
+        "path": "simulator/lua/art/mon_330.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742329",
+        "guid": 1073742329,
+        "path": "simulator/lua/art/mon_334.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742330",
+        "guid": 1073742330,
+        "path": "simulator/lua/art/mon_337.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742331",
+        "guid": 1073742331,
+        "path": "simulator/lua/art/mon_34.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742332",
+        "guid": 1073742332,
+        "path": "simulator/lua/art/mon_343.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742333",
+        "guid": 1073742333,
+        "path": "simulator/lua/art/mon_344.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742334",
+        "guid": 1073742334,
+        "path": "simulator/lua/art/mon_348.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742335",
+        "guid": 1073742335,
+        "path": "simulator/lua/art/mon_35.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742336",
+        "guid": 1073742336,
+        "path": "simulator/lua/art/mon_350.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742337",
+        "guid": 1073742337,
+        "path": "simulator/lua/art/mon_353.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742338",
+        "guid": 1073742338,
+        "path": "simulator/lua/art/mon_36.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742339",
+        "guid": 1073742339,
+        "path": "simulator/lua/art/mon_362.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742340",
+        "guid": 1073742340,
+        "path": "simulator/lua/art/mon_365.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742341",
+        "guid": 1073742341,
+        "path": "simulator/lua/art/mon_37.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742342",
+        "guid": 1073742342,
+        "path": "simulator/lua/art/mon_371.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742343",
+        "guid": 1073742343,
+        "path": "simulator/lua/art/mon_372.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742344",
+        "guid": 1073742344,
+        "path": "simulator/lua/art/mon_373.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742345",
+        "guid": 1073742345,
+        "path": "simulator/lua/art/mon_375.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742346",
+        "guid": 1073742346,
+        "path": "simulator/lua/art/mon_376.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742347",
+        "guid": 1073742347,
+        "path": "simulator/lua/art/mon_377.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742348",
+        "guid": 1073742348,
+        "path": "simulator/lua/art/mon_378.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742349",
+        "guid": 1073742349,
+        "path": "simulator/lua/art/mon_379.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742350",
+        "guid": 1073742350,
+        "path": "simulator/lua/art/mon_380.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742351",
+        "guid": 1073742351,
+        "path": "simulator/lua/art/mon_381.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742352",
+        "guid": 1073742352,
+        "path": "simulator/lua/art/mon_385.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742353",
+        "guid": 1073742353,
+        "path": "simulator/lua/art/mon_386.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742354",
+        "guid": 1073742354,
+        "path": "simulator/lua/art/mon_387.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742355",
+        "guid": 1073742355,
+        "path": "simulator/lua/art/mon_389.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742356",
+        "guid": 1073742356,
+        "path": "simulator/lua/art/mon_390.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742357",
+        "guid": 1073742357,
+        "path": "simulator/lua/art/mon_392.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742358",
+        "guid": 1073742358,
+        "path": "simulator/lua/art/mon_393.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742359",
+        "guid": 1073742359,
+        "path": "simulator/lua/art/mon_395.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742360",
+        "guid": 1073742360,
+        "path": "simulator/lua/art/mon_398.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742361",
+        "guid": 1073742361,
+        "path": "simulator/lua/art/mon_4.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742362",
+        "guid": 1073742362,
+        "path": "simulator/lua/art/mon_403.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742363",
+        "guid": 1073742363,
+        "path": "simulator/lua/art/mon_405.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742364",
+        "guid": 1073742364,
+        "path": "simulator/lua/art/mon_407.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742365",
+        "guid": 1073742365,
+        "path": "simulator/lua/art/mon_410.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742366",
+        "guid": 1073742366,
+        "path": "simulator/lua/art/mon_411.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742367",
+        "guid": 1073742367,
+        "path": "simulator/lua/art/mon_414.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742368",
+        "guid": 1073742368,
+        "path": "simulator/lua/art/mon_416.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742369",
+        "guid": 1073742369,
+        "path": "simulator/lua/art/mon_417.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742370",
+        "guid": 1073742370,
+        "path": "simulator/lua/art/mon_42.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742371",
+        "guid": 1073742371,
+        "path": "simulator/lua/art/mon_429.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742372",
+        "guid": 1073742372,
+        "path": "simulator/lua/art/mon_43.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742373",
+        "guid": 1073742373,
+        "path": "simulator/lua/art/mon_430.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742374",
+        "guid": 1073742374,
+        "path": "simulator/lua/art/mon_437.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742375",
+        "guid": 1073742375,
+        "path": "simulator/lua/art/mon_44.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742376",
+        "guid": 1073742376,
+        "path": "simulator/lua/art/mon_442.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742377",
+        "guid": 1073742377,
+        "path": "simulator/lua/art/mon_445.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742378",
+        "guid": 1073742378,
+        "path": "simulator/lua/art/mon_448.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742379",
+        "guid": 1073742379,
+        "path": "simulator/lua/art/mon_45.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742380",
+        "guid": 1073742380,
+        "path": "simulator/lua/art/mon_458.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742381",
+        "guid": 1073742381,
+        "path": "simulator/lua/art/mon_462.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742382",
+        "guid": 1073742382,
+        "path": "simulator/lua/art/mon_466.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742383",
+        "guid": 1073742383,
+        "path": "simulator/lua/art/mon_467.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742384",
+        "guid": 1073742384,
+        "path": "simulator/lua/art/mon_468.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742385",
+        "guid": 1073742385,
+        "path": "simulator/lua/art/mon_47.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742386",
+        "guid": 1073742386,
+        "path": "simulator/lua/art/mon_471.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742387",
+        "guid": 1073742387,
+        "path": "simulator/lua/art/mon_477.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742388",
+        "guid": 1073742388,
+        "path": "simulator/lua/art/mon_478.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742389",
+        "guid": 1073742389,
+        "path": "simulator/lua/art/mon_48.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742390",
+        "guid": 1073742390,
+        "path": "simulator/lua/art/mon_480.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742391",
+        "guid": 1073742391,
+        "path": "simulator/lua/art/mon_481.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742392",
+        "guid": 1073742392,
+        "path": "simulator/lua/art/mon_482.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742393",
+        "guid": 1073742393,
+        "path": "simulator/lua/art/mon_485.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742394",
+        "guid": 1073742394,
+        "path": "simulator/lua/art/mon_488.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742395",
+        "guid": 1073742395,
+        "path": "simulator/lua/art/mon_49.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742396",
+        "guid": 1073742396,
+        "path": "simulator/lua/art/mon_490.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742397",
+        "guid": 1073742397,
+        "path": "simulator/lua/art/mon_491.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742398",
+        "guid": 1073742398,
+        "path": "simulator/lua/art/mon_492.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742399",
+        "guid": 1073742399,
+        "path": "simulator/lua/art/mon_494.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742400",
+        "guid": 1073742400,
+        "path": "simulator/lua/art/mon_497.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742401",
+        "guid": 1073742401,
+        "path": "simulator/lua/art/mon_5.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742402",
+        "guid": 1073742402,
+        "path": "simulator/lua/art/mon_505.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742403",
+        "guid": 1073742403,
+        "path": "simulator/lua/art/mon_508.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742404",
+        "guid": 1073742404,
+        "path": "simulator/lua/art/mon_51.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742405",
+        "guid": 1073742405,
+        "path": "simulator/lua/art/mon_518.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742406",
+        "guid": 1073742406,
+        "path": "simulator/lua/art/mon_523.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742407",
+        "guid": 1073742407,
+        "path": "simulator/lua/art/mon_53.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742408",
+        "guid": 1073742408,
+        "path": "simulator/lua/art/mon_534.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742409",
+        "guid": 1073742409,
+        "path": "simulator/lua/art/mon_538.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742410",
+        "guid": 1073742410,
+        "path": "simulator/lua/art/mon_539.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742411",
+        "guid": 1073742411,
+        "path": "simulator/lua/art/mon_54.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742412",
+        "guid": 1073742412,
+        "path": "simulator/lua/art/mon_55.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742413",
+        "guid": 1073742413,
+        "path": "simulator/lua/art/mon_560.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742414",
+        "guid": 1073742414,
+        "path": "simulator/lua/art/mon_561.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742415",
+        "guid": 1073742415,
+        "path": "simulator/lua/art/mon_567.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742416",
+        "guid": 1073742416,
+        "path": "simulator/lua/art/mon_58.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742417",
+        "guid": 1073742417,
+        "path": "simulator/lua/art/mon_59.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742418",
+        "guid": 1073742418,
+        "path": "simulator/lua/art/mon_6.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742419",
+        "guid": 1073742419,
+        "path": "simulator/lua/art/mon_604.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742420",
+        "guid": 1073742420,
+        "path": "simulator/lua/art/mon_609.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742421",
+        "guid": 1073742421,
+        "path": "simulator/lua/art/mon_61.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742422",
+        "guid": 1073742422,
+        "path": "simulator/lua/art/mon_618.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742423",
+        "guid": 1073742423,
+        "path": "simulator/lua/art/mon_62.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742424",
+        "guid": 1073742424,
+        "path": "simulator/lua/art/mon_620.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742425",
+        "guid": 1073742425,
+        "path": "simulator/lua/art/mon_635.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742426",
+        "guid": 1073742426,
+        "path": "simulator/lua/art/mon_637.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742427",
+        "guid": 1073742427,
+        "path": "simulator/lua/art/mon_638.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742428",
+        "guid": 1073742428,
+        "path": "simulator/lua/art/mon_639.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742429",
+        "guid": 1073742429,
+        "path": "simulator/lua/art/mon_640.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742430",
+        "guid": 1073742430,
+        "path": "simulator/lua/art/mon_645.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742431",
+        "guid": 1073742431,
+        "path": "simulator/lua/art/mon_647.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742432",
+        "guid": 1073742432,
+        "path": "simulator/lua/art/mon_648.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742433",
+        "guid": 1073742433,
+        "path": "simulator/lua/art/mon_649.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742434",
+        "guid": 1073742434,
+        "path": "simulator/lua/art/mon_65.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742435",
+        "guid": 1073742435,
+        "path": "simulator/lua/art/mon_652.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742436",
+        "guid": 1073742436,
+        "path": "simulator/lua/art/mon_655.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742437",
+        "guid": 1073742437,
+        "path": "simulator/lua/art/mon_658.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742438",
+        "guid": 1073742438,
+        "path": "simulator/lua/art/mon_66.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742439",
+        "guid": 1073742439,
+        "path": "simulator/lua/art/mon_663.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742440",
+        "guid": 1073742440,
+        "path": "simulator/lua/art/mon_67.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742441",
+        "guid": 1073742441,
+        "path": "simulator/lua/art/mon_675.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742442",
+        "guid": 1073742442,
+        "path": "simulator/lua/art/mon_678.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742443",
+        "guid": 1073742443,
+        "path": "simulator/lua/art/mon_68.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742444",
+        "guid": 1073742444,
+        "path": "simulator/lua/art/mon_691.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742445",
+        "guid": 1073742445,
+        "path": "simulator/lua/art/mon_695.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742446",
+        "guid": 1073742446,
+        "path": "simulator/lua/art/mon_7.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742447",
+        "guid": 1073742447,
+        "path": "simulator/lua/art/mon_70.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742448",
+        "guid": 1073742448,
+        "path": "simulator/lua/art/mon_703.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742449",
+        "guid": 1073742449,
+        "path": "simulator/lua/art/mon_705.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742450",
+        "guid": 1073742450,
+        "path": "simulator/lua/art/mon_706.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742451",
+        "guid": 1073742451,
+        "path": "simulator/lua/art/mon_709.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742452",
+        "guid": 1073742452,
+        "path": "simulator/lua/art/mon_713.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742453",
+        "guid": 1073742453,
+        "path": "simulator/lua/art/mon_719.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742454",
+        "guid": 1073742454,
+        "path": "simulator/lua/art/mon_72.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742455",
+        "guid": 1073742455,
+        "path": "simulator/lua/art/mon_721.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742456",
+        "guid": 1073742456,
+        "path": "simulator/lua/art/mon_723.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742457",
+        "guid": 1073742457,
+        "path": "simulator/lua/art/mon_726.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742458",
+        "guid": 1073742458,
+        "path": "simulator/lua/art/mon_727.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742459",
+        "guid": 1073742459,
+        "path": "simulator/lua/art/mon_729.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742460",
+        "guid": 1073742460,
+        "path": "simulator/lua/art/mon_73.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742461",
+        "guid": 1073742461,
+        "path": "simulator/lua/art/mon_730.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742462",
+        "guid": 1073742462,
+        "path": "simulator/lua/art/mon_733.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742463",
+        "guid": 1073742463,
+        "path": "simulator/lua/art/mon_738.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742464",
+        "guid": 1073742464,
+        "path": "simulator/lua/art/mon_74.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742465",
+        "guid": 1073742465,
+        "path": "simulator/lua/art/mon_743.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742466",
+        "guid": 1073742466,
+        "path": "simulator/lua/art/mon_745.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742467",
+        "guid": 1073742467,
+        "path": "simulator/lua/art/mon_75.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742468",
+        "guid": 1073742468,
+        "path": "simulator/lua/art/mon_750.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742469",
+        "guid": 1073742469,
+        "path": "simulator/lua/art/mon_76.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742470",
+        "guid": 1073742470,
+        "path": "simulator/lua/art/mon_77.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742471",
+        "guid": 1073742471,
+        "path": "simulator/lua/art/mon_772.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742472",
+        "guid": 1073742472,
+        "path": "simulator/lua/art/mon_783.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742473",
+        "guid": 1073742473,
+        "path": "simulator/lua/art/mon_784.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742474",
+        "guid": 1073742474,
+        "path": "simulator/lua/art/mon_79.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742475",
+        "guid": 1073742475,
+        "path": "simulator/lua/art/mon_793.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742476",
+        "guid": 1073742476,
+        "path": "simulator/lua/art/mon_794.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742477",
+        "guid": 1073742477,
+        "path": "simulator/lua/art/mon_795.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742478",
+        "guid": 1073742478,
+        "path": "simulator/lua/art/mon_796.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742479",
+        "guid": 1073742479,
+        "path": "simulator/lua/art/mon_797.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742480",
+        "guid": 1073742480,
+        "path": "simulator/lua/art/mon_798.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742481",
+        "guid": 1073742481,
+        "path": "simulator/lua/art/mon_799.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742482",
+        "guid": 1073742482,
+        "path": "simulator/lua/art/mon_8.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742483",
+        "guid": 1073742483,
+        "path": "simulator/lua/art/mon_80.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742484",
+        "guid": 1073742484,
+        "path": "simulator/lua/art/mon_800.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742485",
+        "guid": 1073742485,
+        "path": "simulator/lua/art/mon_802.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742486",
+        "guid": 1073742486,
+        "path": "simulator/lua/art/mon_805.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742487",
+        "guid": 1073742487,
+        "path": "simulator/lua/art/mon_806.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742488",
+        "guid": 1073742488,
+        "path": "simulator/lua/art/mon_807.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742489",
+        "guid": 1073742489,
+        "path": "simulator/lua/art/mon_809.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742490",
+        "guid": 1073742490,
+        "path": "simulator/lua/art/mon_81.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742491",
+        "guid": 1073742491,
+        "path": "simulator/lua/art/mon_811.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742492",
+        "guid": 1073742492,
+        "path": "simulator/lua/art/mon_814.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742493",
+        "guid": 1073742493,
+        "path": "simulator/lua/art/mon_817.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742494",
+        "guid": 1073742494,
+        "path": "simulator/lua/art/mon_82.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742495",
+        "guid": 1073742495,
+        "path": "simulator/lua/art/mon_823.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742496",
+        "guid": 1073742496,
+        "path": "simulator/lua/art/mon_826.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742497",
+        "guid": 1073742497,
+        "path": "simulator/lua/art/mon_828.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742498",
+        "guid": 1073742498,
+        "path": "simulator/lua/art/mon_83.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742499",
+        "guid": 1073742499,
+        "path": "simulator/lua/art/mon_839.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742500",
+        "guid": 1073742500,
+        "path": "simulator/lua/art/mon_84.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742501",
+        "guid": 1073742501,
+        "path": "simulator/lua/art/mon_844.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742502",
+        "guid": 1073742502,
+        "path": "simulator/lua/art/mon_86.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742503",
+        "guid": 1073742503,
+        "path": "simulator/lua/art/mon_862.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742504",
+        "guid": 1073742504,
+        "path": "simulator/lua/art/mon_863.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742505",
+        "guid": 1073742505,
+        "path": "simulator/lua/art/mon_873.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742506",
+        "guid": 1073742506,
+        "path": "simulator/lua/art/mon_88.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742507",
+        "guid": 1073742507,
+        "path": "simulator/lua/art/mon_880.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742508",
+        "guid": 1073742508,
+        "path": "simulator/lua/art/mon_887.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742509",
+        "guid": 1073742509,
+        "path": "simulator/lua/art/mon_89.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742510",
+        "guid": 1073742510,
+        "path": "simulator/lua/art/mon_896.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742511",
+        "guid": 1073742511,
+        "path": "simulator/lua/art/mon_897.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742512",
+        "guid": 1073742512,
+        "path": "simulator/lua/art/mon_9.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742513",
+        "guid": 1073742513,
+        "path": "simulator/lua/art/mon_901.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742514",
+        "guid": 1073742514,
+        "path": "simulator/lua/art/mon_903.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742515",
+        "guid": 1073742515,
+        "path": "simulator/lua/art/mon_911.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742516",
+        "guid": 1073742516,
+        "path": "simulator/lua/art/mon_920.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742517",
+        "guid": 1073742517,
+        "path": "simulator/lua/art/mon_923.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742518",
+        "guid": 1073742518,
+        "path": "simulator/lua/art/mon_93.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742519",
+        "guid": 1073742519,
+        "path": "simulator/lua/art/mon_934.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742520",
+        "guid": 1073742520,
+        "path": "simulator/lua/art/mon_936.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742521",
+        "guid": 1073742521,
+        "path": "simulator/lua/art/mon_939.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742522",
+        "guid": 1073742522,
+        "path": "simulator/lua/art/mon_94.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742523",
+        "guid": 1073742523,
+        "path": "simulator/lua/art/mon_95.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742524",
+        "guid": 1073742524,
+        "path": "simulator/lua/art/mon_952.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742525",
+        "guid": 1073742525,
+        "path": "simulator/lua/art/mon_959.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742526",
+        "guid": 1073742526,
+        "path": "simulator/lua/art/mon_96.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742527",
+        "guid": 1073742527,
+        "path": "simulator/lua/art/mon_962.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742528",
+        "guid": 1073742528,
+        "path": "simulator/lua/art/mon_967.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742529",
+        "guid": 1073742529,
+        "path": "simulator/lua/art/mon_975.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742530",
+        "guid": 1073742530,
+        "path": "simulator/lua/art/mon_98.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742531",
+        "guid": 1073742531,
+        "path": "simulator/lua/art/mon_980.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742532",
+        "guid": 1073742532,
+        "path": "simulator/lua/art/mon_983.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742533",
+        "guid": 1073742533,
+        "path": "simulator/lua/art/mon_984.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742534",
+        "guid": 1073742534,
+        "path": "simulator/lua/art/mon_985.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742535",
+        "guid": 1073742535,
+        "path": "simulator/lua/art/mon_986.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742536",
+        "guid": 1073742536,
+        "path": "simulator/lua/art/mon_987.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742537",
+        "guid": 1073742537,
+        "path": "simulator/lua/art/mon_988.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742538",
+        "guid": 1073742538,
+        "path": "simulator/lua/art/mon_989.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742539",
+        "guid": 1073742539,
+        "path": "simulator/lua/art/mon_99.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742540",
+        "guid": 1073742540,
+        "path": "simulator/lua/art/mon_990.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742541",
+        "guid": 1073742541,
+        "path": "simulator/lua/art/mon_991.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742542",
+        "guid": 1073742542,
+        "path": "simulator/lua/art/mon_992.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742543",
+        "guid": 1073742543,
+        "path": "simulator/lua/art/mon_993.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742544",
+        "guid": 1073742544,
+        "path": "simulator/lua/art/mon_994.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742545",
+        "guid": 1073742545,
+        "path": "simulator/lua/art/mon_995.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742546",
+        "guid": 1073742546,
+        "path": "simulator/lua/art/mon_997.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742547",
+        "guid": 1073742547,
+        "path": "simulator/lua/art/mon_998.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742548",
+        "guid": 1073742548,
+        "path": "simulator/lua/art/move_atlases.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742549",
+        "guid": 1073742549,
+        "path": "simulator/lua/art/preview.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      },
+      {
+        "id": "1073742550",
+        "guid": 1073742550,
+        "path": "simulator/lua/art/recovery.lua",
+        "source": "",
+        "controlId": "",
+        "controlAsset": "server-control-template"
+      }
+    ]
+  }
+}
