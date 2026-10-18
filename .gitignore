@@ -4,16 +4,24 @@ node_modules/
 simulator/.cache/
 simulator/dist/
 web/dist/
+coverage/
+.nyc_output/
+*.tsbuildinfo
 
 # Local reports, user saves and calibration output
 .local/
 records/
+/docs/production-plan.md
 qianxing/校准输出-*/
 *.log
 *.gil
 *.zip
 *.bak
 *.tmp
+*.orig
+*.rej
+*.swp
+*.swo
 .save-archive/
 __pycache__/
 *.py[cod]

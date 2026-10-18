@@ -15,11 +15,13 @@ data+=`v_D.speciesSets=v_D.sets\nlocal v_P=Jobj({schema=${P.schema},species=Jobj
 for(const [num,row] of Object.entries(P.species))data+=`Jset(v_P.species,${q(num)},${lua(row)})\n`;
 data+='local v_M=Jobj({})\n';for(let [k,v] of Object.entries(M)) {if(v&&typeof v==='object'&&!Array.isArray(v)){data+=`v_M[${q(k)}]=Jobj({})\n`;for(let [n,t] of Object.entries(v))data+=`Jset(v_M[${q(k)}],${q(n)},${lua(t)})\n`}else data+=`v_M[${q(k)}]=${lua(v)}\n`}
 data+='local INFO='+lua(I)+'\n';
-const runtime=fs.readFileSync(path.join(__dirname,'runtime.lua'),'utf8');
+const runtime=fs.readFileSync(path.join(__dirname,'runtime.lua'),'utf8').replace(/\r\n/g,'\n');
 const compiled=compile(logic),generator=fs.readFileSync('web/src/game/rental-generator.js','utf8');
 const generatorLogic=generator.slice(generator.indexOf('const rules='),generator.indexOf('root.FactoryRentalGenerator=api;'))+'return api;';
 const result=`-- GENERATED from the offline HTML rules. Rebuild: npm run build:lua\nlocal function loadBattleFactory()\n${runtime}\n${data}\nlocal v_G=(function()\n${compile(generatorLogic)}\nend)()\nlocal ENGINE=(function()\n${compiled}\nend)()\nreturn {engine=ENGINE,null=JNULL,data=v_D,meta=v_M,info=INFO,new=Jnew,call=Jcall,get=Jget,set=Jset,invoke=Jinvoke,arr=Jarr,obj=Jobj,iter=Jiter,clone=Jclone}\nend\nreturn loadBattleFactory()\n`;
 fs.mkdirSync('simulator/lua',{recursive:true});fs.writeFileSync('simulator/lua/battle_factory_core.lua',result);
+// The native build shares the same pure rules; only its module namespace differs.
+fs.writeFileSync('qianxing/lua/battle_factory_core.lua','local require=require("default_import_file/workspace/battle-factory/lua/battle_factory_common_fx")\n'+result);
 console.log(`Lua core: ${D.speciesSets.length} species, live constrained learnsets, ${result.length} characters`);
 const vm=require('vm'),effects=fs.readFileSync('web/src/presentation/effects.js','utf8');
 const literal=name=>vm.runInNewContext('('+effects.match(new RegExp(`const ${name}=(\\{[\\s\\S]*?\\});`))[1]+')');

@@ -11,8 +11,8 @@ test('Choice items boost only the appropriate stat and lock the first executed m
 test('Choice lock resets after switching and does not lock sleep or flinch failures',()=>{
  const b=battle('choiceband');b.mon(0).status='slp';b.mon(0).sleep=3;b.use(0,'strength');assert.equal(b.choices(0).length,4);b.mon(0).status='';b.use(0,'strength');assert.equal(b.choices(0).length,1);b.switch(0,1);b.switch(0,0);assert.equal(b.choices(0).length,4);
 });
-test('Gen IV Focus Sash protects an entire multi-hit move, is consumed once, and not residual damage',()=>{
- const b=battle('');const target=b.mon(1);target.item='focussash';target.itemActive=true;target.hp=target.maxhp=20;b.use(0,'doublekick');assert.equal(target.hp,1);assert.equal(target.itemActive,false);assert.equal(b.events.filter(e=>e.kind==='item').length,1);b.damage(1,4,'中毒',false);assert.equal(target.hp,0);
+test('Focus Sash protects only one hit and does not stop later hits or residual damage',()=>{
+ const b=battle('');const target=b.mon(1);target.item='focussash';target.itemActive=true;target.hp=target.maxhp=20;b.use(0,'doublekick');assert.equal(target.hp,0);assert.equal(target.itemActive,false);assert.equal(b.events.filter(e=>e.kind==='item').length,1);b.damage(1,4,'中毒',false);assert.equal(target.hp,0);
  const c=battle('');c.mon(1).item='focussash';c.mon(1).hp=5;c.use(0,'strength');assert.equal(c.mon(1).hp,0);
  const d=battle('');d.mon(1).item='focussash';d.damage(1,9999,'沙暴',false);assert.equal(d.mon(1).hp,0);
 });

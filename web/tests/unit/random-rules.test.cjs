@@ -15,21 +15,21 @@ test('equal-speed entry order is randomized, not always player first',()=>{
 test('equal-speed poison residual can resolve in either order',()=>{
  for(const roll of [false,true]){const b=battle(123);b.mon(0).status='psn';b.mon(1).status='psn';b.rng.chance=()=>roll;b.events=[];b.residual();const damage=b.events.filter(e=>e.kind==='damage');assert.equal(damage.length,2);assert.equal(damage[0].side,roll?1:0);}
 });
-test('confusion self-hit uses the Gen IV 85-100 damage roll',()=>{
+test('confusion self-hit uses the 85-100 damage roll',()=>{
  const damages=[];for(const roll of [85,100]){const b=battle(123);b.mon(0).vol.confusion=3;b.rng.chance=()=>true;b.rng.int=(lo,hi)=>{assert.equal(lo,85);assert.equal(hi,101);return roll;};const hp=b.mon(0).hp;assert.equal(b.beforeMove(0,M.moves.watergun),false);damages.push(hp-b.mon(0).hp);}
  assert.ok(damages[0]<damages[1]);
 });
 test('equal-priority speed ties can put either side first',()=>{
  for(const roll of [false,true]){const b=battle(123);for(const s of [0,1])b.mon(s).moves=[{id:'withdraw',pp:40,maxpp:40}];b.enemyChoice={kind:'move',index:0};b.rng.chance=()=>roll;const r=b.act({kind:'move',index:0});assert.ok(r.ok);assert.equal(r.events.find(e=>e.kind==='move').side,roll?1:0);}
 });
-test('Life Orb applies after the Gen IV critical modifier before damage roll',()=>{
+test('Life Orb uses the modern critical multiplier and final damage modifier',()=>{
  const b=battle(123);b.mon(0).item='Life Orb';b.mon(0).stats.atk=100;b.mon(1).stats.def=100;
- // floor(22*40*100/100/50)+2 = 19; critical 38; Life Orb floor(49.4)=49.
- assert.equal(b.calculate(0,M.moves.scratch,{critical:true}),49);
+ // floor(22*40*100/100/50)+2 = 19; critical floor(28.5)=28; Life Orb round(36.4)=36.
+ assert.equal(b.calculate(0,M.moves.scratch,{critical:true}),36);
 });
-test('Gen IV normal recoil floors the damage fraction',()=>{
+test('normal recoil rounds the damage fraction',()=>{
  const b=battle(123);b.mon(0).moves=[{id:'takedown',pp:20,maxpp:20}];b.calculate=()=>7;b.rng.chance=(n,d=100)=>d===100;
- const hp=b.mon(0).hp;b.use(0,'takedown');assert.equal(hp-b.mon(0).hp,1);
+ const hp=b.mon(0).hp;b.use(0,'takedown');assert.equal(hp-b.mon(0).hp,2);
 });
 test('sleep advances before flinch; confusion advances before paralysis',()=>{
  const b=battle(123),a=b.mon(0);a.status='slp';a.sleep=2;a.vol.flinch=true;b.beforeMove(0,M.moves.watergun);assert.equal(a.sleep,1);

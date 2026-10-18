@@ -102,6 +102,38 @@
       "source": "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_moves.csv",
       "sha256": "22a807cef26891eeac0d0c900bd363e66baf421f7ee795bc7bc3e718f23b939e",
       "bytes": 10733699
+    },
+    {
+      "file": "current-moves.ts",
+      "source": "https://raw.githubusercontent.com/smogon/pokemon-showdown/master/data/moves.ts",
+      "retrieved": "2026-10-17",
+      "ruleset": "gen9-scarlet-violet",
+      "sha256": "8bf68a2f0032ca21fc1de78a5bbcfcf1c5a704991eea912c9c546ff193743837",
+      "bytes": 484771
+    },
+    {
+      "file": "current-abilities.ts",
+      "source": "https://raw.githubusercontent.com/smogon/pokemon-showdown/master/data/abilities.ts",
+      "retrieved": "2026-10-17",
+      "ruleset": "gen9-scarlet-violet",
+      "sha256": "53d8558979e337c675907b76b5375185b28a0877f770d7456025b94535e1064d",
+      "bytes": 157025
+    },
+    {
+      "file": "current-items.ts",
+      "source": "https://raw.githubusercontent.com/smogon/pokemon-showdown/master/data/items.ts",
+      "retrieved": "2026-10-17",
+      "ruleset": "gen9-scarlet-violet",
+      "sha256": "5f2c11b38e7b78708357812cbfb0feca7df7c6a7f4de298c07ed20d77b694116",
+      "bytes": 164125
+    },
+    {
+      "file": "current-pokedex.ts",
+      "source": "https://raw.githubusercontent.com/smogon/pokemon-showdown/master/data/pokedex.ts",
+      "retrieved": "2026-10-17",
+      "ruleset": "gen9-scarlet-violet",
+      "sha256": "5e572601f4700f99835845eee5cd3e53362e43d885e2753fcc32418f636b83ed",
+      "bytes": 538334
     }
   ]
 }

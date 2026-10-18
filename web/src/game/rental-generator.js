@@ -8,19 +8,19 @@ const rules={
  recovery:['recover','roost','moonlight'],
  physicalSetup:['swordsdance','dragondance','howl'],specialSetup:['calmmind','quiverdance'],
  drops:['overheat','leafstorm','dracometeor','superpower'],
- weakUtility:['knockoff','rapidspin'],
+ utilityAttacks:['knockoff','rapidspin'],
  drain:['gigadrain','megadrain','drainpunch'],
  weather:{raindance:['swiftswim','hydration'],sunnyday:['chlorophyll','protosynthesis'],sandstorm:['sandveil','sandforce'],electricterrain:['quarkdrive']},
  typeItems:{Normal:'silkscarf',Fire:'charcoal',Water:'mysticwater',Grass:'miracleseed',Electric:'magnet',Ice:'nevermeltice',Fighting:'blackbelt',Poison:'poisonbarb',Ground:'softsand',Flying:'sharpbeak',Psychic:'twistedspoon',Bug:'silverpowder',Rock:'hardstone',Ghost:'spelltag',Dragon:'dragonfang',Dark:'blackglasses',Steel:'metalcoat',Fairy:'fairyfeather'}
 };
 function power(k){const m=M.moves[k];if(k==='grassknot')return 80;if(k==='magnitude')return 71;if(k==='nightshade')return 55;return m.power*(['bulletseed','rockblast','doubleslap'].includes(k)?3:['doublekick','twineedle'].includes(k)?2:1)}
 function accuracy(k){return M.moves[k].accuracy===true?100:M.moves[k].accuracy}
-function usefulAttack(k){return power(k)>=40&&!rules.weakUtility.includes(k)}
+function usefulAttack(k){return power(k)>=40}
 function stab(k,spec){return spec.types.includes(M.moves[k].type)&&k!=='nightshade'&&usefulAttack(k)}
 function moveScore(k,spec){
  const m=M.moves[k],st=spec.baseStats;
  let value=power(k)*accuracy(k)/100*(k==='nightshade'?1:st[m.category==='Physical'?'atk':'spa']/Math.max(st.atk,st.spa));
- if(stab(k,spec))value+=25;if(m.priority>0)value+=18;if(rules.weakUtility.includes(k))value+=35;
+ if(stab(k,spec))value+=25;if(m.priority>0)value+=18;if(rules.utilityAttacks.includes(k))value+=35;
  if(rules.drain.includes(k))value+=12;if(['scald','torchsong','psyshock'].includes(k))value+=10;
  if(k==='dig')value-=30;return value;
 }
@@ -79,7 +79,7 @@ function compatible(keys,c,plan,lane,spec,complete){
   if(keys.filter(k=>M.moves[k].type===ma.type).length>2)return false;
   // A strong STAB plus its priority or utility counterpart has a purpose;
   // two ordinary attacks of the same type merely waste a slot.
-  const complementary=(ma.priority>0)!==(mb.priority>0)||rules.weakUtility.includes(a)!==rules.weakUtility.includes(b);
+  const complementary=(ma.priority>0)!==(mb.priority>0)||rules.utilityAttacks.includes(a)!==rules.utilityAttacks.includes(b);
   if(!complementary)return false;
  }
  if(!complete)return true;
@@ -120,7 +120,7 @@ function compileLane(c,lane,spec){
  // Build-time derivation: retain only feasible plans and one safe witness.
  // The witness is a bounded-search fallback, never the live sampling catalogue.
  const coverageTypes=[];for(const k of lane.attacks)if(usefulAttack(k)&&M.moves[k].type!=='Normal'&&!coverageTypes.includes(M.moves[k].type))coverageTypes.push(M.moves[k].type);
- if(coverageTypes.length>=2)lane.attacks=lane.attacks.filter(k=>M.moves[k].type!=='Normal'||spec.types.includes('Normal')||M.moves[k].priority>0||rules.weakUtility.includes(k));
+ if(coverageTypes.length>=2)lane.attacks=lane.attacks.filter(k=>M.moves[k].type!=='Normal'||spec.types.includes('Normal')||M.moves[k].priority>0||rules.utilityAttacks.includes(k));
  lane.requireStab=lane.attacks.some(k=>stab(k,spec));
  lane.coverage=lane.attacks.some(k=>usefulAttack(k)&&M.moves[k].type!==M.moves[lane.attacks[0]].type);
  lane.plans=[];

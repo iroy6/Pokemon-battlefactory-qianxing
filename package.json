@@ -19,7 +19,7 @@
     "build:data": "npm run build:data --workspace @battle-factory/web",
     "build:qianxing": "node qianxing/tools/package.mjs",
     "test": "node tools/test.cjs",
-    "test:runtime": "node tools/verify-runtime.mjs"
+    "test:runtime": "node tools/verify-runtime.mjs && node tools/verify-swap-runtime.mjs"
   },
   "devDependencies": {
     "@napi-rs/canvas": "0.1.100",

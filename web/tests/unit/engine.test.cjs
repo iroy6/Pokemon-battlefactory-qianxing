@@ -3,14 +3,14 @@ const E=require('../../src/game/engine.js'),D=require('../../src/data/species-da
 const mon=n=>E.createMon(D.sets.find(s=>s.num===n));
 const fight=(a,b)=>new E.Battle(a.map(mon),b.map(mon),217);
 const prepare=seed=>{const f=new E.Factory(seed);[0,1,2].forEach(i=>f.select(i));f.lock();f.begin();return f};
-test('Gen IV metadata: historical stats, types, priority and power',()=>{
- assert.equal(M.species.pikachu.baseStats.def,30);assert.equal(M.species.pikachu.baseStats.spd,40);
- assert.deepEqual(M.species.clefairy.types,['Normal']);assert.equal(M.chart.Ghost.Steel,.5);
- assert.equal(M.moves.protect.priority,3);assert.equal(M.moves.fakeout.priority,1);
- assert.equal(M.moves.knockoff.power,20);assert.equal(M.moves.rocktomb.accuracy,80);
- assert.equal(M.moves.toxic.accuracy,85);assert.equal(M.moves.willowisp.accuracy,75);
+test('Gen IX metadata: current stats, types, priority and power',()=>{
+ assert.equal(M.species.pikachu.baseStats.def,40);assert.equal(M.species.pikachu.baseStats.spd,50);
+ assert.deepEqual(M.species.clefairy.types,['Fairy']);assert.equal(M.chart.Ghost.Steel,1);
+ assert.equal(M.moves.protect.priority,4);assert.equal(M.moves.fakeout.priority,3);
+ assert.equal(M.moves.knockoff.power,65);assert.equal(M.moves.rocktomb.accuracy,95);
+ assert.equal(M.moves.toxic.accuracy,90);assert.equal(M.moves.willowisp.accuracy,85);
  // Equal IV 31 in custom divisions; 252 EV -> 63 points before the level multiplier.
- assert.deepEqual(mon(25).stats,{hp:110,atk:67,def:50,spa:112,spd:60,spe:142});
+ assert.deepEqual(mon(25).stats,{hp:110,atk:67,def:60,spa:112,spd:70,spe:142});
 });
 test('rental selection: exactly three, ordering and unique species/items',()=>{
  const f=new E.Factory(48);assert.equal(f.lock(),false);f.select(0);f.select(1);assert.equal(f.lock(),false);
@@ -34,8 +34,8 @@ test('priority: Aqua Jet precedes faster ordinary move',()=>{
  const b=fight([7],[100]);b.enemyChoice={kind:'move',index:0};const r=b.act({kind:'move',index:0});
  assert.equal(r.events.find(e=>e.kind==='move').side,0);assert.equal(b.mon(0).moves[0].pp,19);
 });
-test('status immunity, cure berry, Gen IV electric paralysis and Magic Guard',()=>{
- let b=fight([25],[4]);assert.ok(b.setStatus(0,'par'));assert.equal(b.speed(0),35);
+test('status immunity, cure berry, Electric paralysis immunity and Magic Guard',()=>{
+ let b=fight([25],[4]);assert.equal(b.setStatus(0,'par'),false);assert.equal(b.speed(0),142);
  b=fight([54],[4]);assert.ok(b.setStatus(0,'slp'));assert.equal(b.mon(0).status,'');assert.equal(b.mon(0).itemActive,false);
  b=fight([35],[4]);b.setStatus(0,'tox');b.residual();assert.equal(b.mon(0).hp,b.mon(0).maxhp);
  b=fight([88],[4]);assert.equal(b.setStatus(0,'tox'),false);

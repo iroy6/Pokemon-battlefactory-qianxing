@@ -196,7 +196,7 @@ local function striped(y,h,c1,c2)for yy=y,y+h-1,6 do ui:rect(0,yy,720,3,c1);ui:r
 local function intel()
  title(F.get(state,'divisionInfo').name..'　/　第 '..(state.wins+1)..' 战');striped(40,322,'#158b7a','#168574');ui:text('下一位对手的情报',24,57,23,'#ffffe4')
  for i,m in F.iter(state.opponents[state.wins]) do local x=33+i*224;showSprite(m.num,'front',x+25,92,140,130);ui:text(m.name,x,230,21,'#ffffe4',190,'center',1);types(m,x+95,261,true,'#ffffe7') end
- ui:rect(24,292,672,56,'#4b7d70');ui:rect(28,296,664,48,'#e8f0d9');ui:text('招式、特性与道具需要在对战中观察。',38,309,18,'#345a52',644,nil,1)
+ ui:rect(24,292,672,56,'#4b7d70');ui:rect(28,296,664,48,'#e8f0d9');ui:text('战后交换时，可直接查看对方完整资料。',38,309,18,'#345a52',644,nil,1)
  ui:rect(0,362,720,118,'#464350');dialogue('全队已经恢复。\n首发是'..state.team[0].name..'，准备出战！',5,367,411,108);ui:panel(421,367,294,108,paper);textButton('开始对战','begin',nil,432,378,272,43,focus%2==0);textButton('查看队伍','team',nil,432,421,272,43,focus%2==1)
 end
 local function visual(s)return queue and display[s] or call(state.battle,'mon',s) end
@@ -265,11 +265,10 @@ local function historyPanel()
  ui:text('上下滑动或使用方向键查看完整记录',22,438,12,ink,560,nil,1)
 end
 local function summary(m)
- modal(overlay.hidden and '对手观测记录' or '宝可梦资料');ui:rect(5,51,710,376,'#0d7d70')
+ modal('宝可梦资料');ui:rect(5,51,710,376,'#0d7d70')
  local tabs={'基本资料','能力与道具','招式'};for i,t in ipairs(tabs) do local x=5+(i-1)*710/3;ui:rect(x,51,710/3,38,i-1==detailPage and '#ab56c2' or '#d69be0');ui:rect(x,85,710/3,4,i-1==detailPage and '#fff3a3' or '#e8cfeb');ui:text(t,x,61,16,i-1==detailPage and '#ffffff' or '#67376d',710/3,'center',1);hit(t,'summary-page',i-1,x,51,710/3,38,false,true) end
  ui:rect(15,99,210,318,'#73b78b');ui:rect(20,104,200,308,'#a1d6a6');ui:text(string.format('No.%03d',m.num),28,112,23,'#ffffe9');for yy=150,332,6 do ui:rect(35,yy,170,3,'#c2d6bd');ui:rect(35,yy+3,170,3,'#e2e8d4') end;showSprite(m.num,'front',35,150,170,185);ui:text('Lv.50 '..m.name,24,347,20,'#ffffe9',192,'center',1);types(m,120,384,true,'#ffffe9')
  local color=detailPage==0 and '#c5ddb1' or detailPage==1 and '#8571c3' or '#5c2db6';ui:rect(235,99,470,318,detailPage==0 and '#446c59' or '#645183');ui:rect(239,103,462,310,color)
- local hidden=overlay.hidden
  local function block(label,name,desc,y,h)
   ui:rect(248,y,444,h,'#f7ffe9');ui:rect(254,y+3,432,23,detailPage==1 and '#c9c447' or '#4a8aba');ui:text(label,261,y+5,15,'#ffffff',417,nil,1);ui:text(name,256,y+28,20,ink,428,nil,1)
   -- Long descriptions open a readable detail panel; never squeeze Chinese
@@ -283,16 +282,16 @@ local function summary(m)
  end
  if detailPage==0 then
   block('属性','','',112,66);types(m,259,154,false,ink)
-  local revealed=not hidden or m.revealedAbility;block('特性',revealed and m.abilityZh or '未确认',revealed and I.abilities[id(m.ability)] or '尚未观察到特性发动。',186,113)
-  local nat=I.natures[m.nature];local desc=nat and nat._n>0 and (I.stats[nat[0]]..'提高 10%，'..I.stats[nat[1]]..'降低 10%；其余能力不变。修正已计入下方能力值。') or '中性性格，所有能力值均不增减。';block('训练家笔记',hidden and '性格未公开' or m.natureZh,hidden and '对手隐藏资料不提前公开。' or desc,307,98)
+  block('特性',m.abilityZh,I.abilities[id(m.ability)],186,113)
+  local nat=I.natures[m.nature];local desc=nat and nat._n>0 and (I.stats[nat[0]]..'提高 10%，'..I.stats[nat[1]]..'降低 10%；其余能力不变。修正已计入下方能力值。') or '中性性格，所有能力值均不增减。';block('训练家笔记',m.natureZh,desc,307,98)
  elseif detailPage==1 then
-  local revealed=not hidden or m.revealedItem;block('携带道具',revealed and m.itemZh or '未确认',revealed and I.items[id(m.item)] or '尚未观察到道具效果。',112,118)
-  ui:rect(248,238,444,130,'#f7ffe9');if hidden then ui:text('对手能力值未公开。',260,261,18,ink,414) else
-   local nat=I.natures[m.nature];for j,k in ipairs({'hp','atk','def','spa','spd','spe'}) do local x=260+(j-1)%2*214;local y=247+math.floor((j-1)/2)*39;local up=nat and nat[0]==k;local down=nat and nat[1]==k;local c=up and '#b94d32' or down and '#496fba' or ink;ui:text(I.stats[k]..(up and '↑' or down and '↓' or ''),x,y,19,c);ui:text(m.stats[k],x+107,y,22,c,88,'right',1) end;ui:text('已计入性格，不含临时能力变化。',248,382,12,'#fffadd',444) end
+  block('携带道具',m.itemZh,I.items[id(m.item)],112,118)
+  ui:rect(248,238,444,130,'#f7ffe9')
+  local nat=I.natures[m.nature];for j,k in ipairs({'hp','atk','def','spa','spd','spe'}) do local x=260+(j-1)%2*214;local y=247+math.floor((j-1)/2)*39;local up=nat and nat[0]==k;local down=nat and nat[1]==k;local c=up and '#b94d32' or down and '#496fba' or ink;ui:text(I.stats[k]..(up and '↑' or down and '↓' or ''),x,y,19,c);ui:text(m.stats[k],x+107,y,22,c,88,'right',1) end;ui:text('已计入性格，不含临时能力变化。',248,382,12,'#fffadd',444)
  else
-  local moves=hidden and m.seen or m.moves
-  for i,s in F.iter(moves) do local sid=hidden and s or s.id;local y=112+i*45;local meta=M.moves[sid];ui:rect(248,y,444,43,i==summaryMove and '#eb654f' or '#b8c2ad');ui:rect(250,y+2,440,39,i==summaryMove and '#fff5cd' or '#f6ffe9');badge(meta.type,257,y+13,false);ui:text(D.moveNames[sid],314,y+9,17,ink,238,nil,1);ui:text(hidden and '已观察' or 'PP '..s.pp..'/'..s.maxpp,581,y+14,12,ink,100,'right',1);hit('查看招式','summary-move',i,248,y,444,43,false,true) end
-  local s=moves[summaryMove] or moves[0];if s then local sid=hidden and s or s.id;local meta=M.moves[sid];ui:rect(248,297,444,108,'#fffde8');ui:rect(253,301,434,22,'#bc4cbc');ui:text('招式说明',260,303,15,'#ffffff');badge(meta.category,256,327);ui:text('威力 '..(meta.power>0 and meta.power or '—')..'  命中 '..(meta.accuracy==true and '必中' or meta.accuracy..'%'),350,327,13,ink,330,nil,1);ui:text(I.moves[sid],256,348,14,ink,428,nil,3) else ui:text('尚未观察到招式。',258,130,18,ink) end
+  local moves=m.moves
+  for i,s in F.iter(moves) do local sid=s.id;local y=112+i*45;local meta=M.moves[sid];ui:rect(248,y,444,43,i==summaryMove and '#eb654f' or '#b8c2ad');ui:rect(250,y+2,440,39,i==summaryMove and '#fff5cd' or '#f6ffe9');badge(meta.type,257,y+13,false);ui:text(D.moveNames[sid],314,y+9,17,ink,238,nil,1);ui:text('PP '..s.pp..'/'..s.maxpp,581,y+14,12,ink,100,'right',1);hit('查看招式','summary-move',i,248,y,444,43,false,true) end
+  local s=moves[summaryMove] or moves[0];if s then local sid=s.id;local meta=M.moves[sid];ui:rect(248,297,444,108,'#fffde8');ui:rect(253,301,434,22,'#bc4cbc');ui:text('招式说明',260,303,15,'#ffffff');badge(meta.category,256,327);ui:text('威力 '..(meta.power>0 and meta.power or '—')..'  命中 '..(meta.accuracy==true and '必中' or meta.accuracy..'%'),350,327,13,ink,330,nil,1);ui:text(I.moves[sid],256,348,14,ink,428,nil,3) else ui:text('暂无招式。',258,130,18,ink) end
  end
  ui:text(detailPage==2 and '◀ ▶ 换页　▲ ▼ 招式　X / B 返回' or '◀ ▶ 切换资料页',24,440,12,ink)
 end
@@ -321,15 +320,16 @@ local function publicEffects(side)
  if v.confusion then add('混乱','剩余回合未知','行动时可能攻击自己；换下后解除。') end
  if v.seed~=nil then add('寄生种子','持续至换下','回合末吸取 HP，回复对方。') end
  if v.wrap then add('紧束','剩余回合未知','回合末受到伤害，暂时不能主动换人。') end
- for _,k in ipairs({'disable','encore'}) do if v[k] then add(k=='disable' and '定身法' or '再来一次','剩余回合未知',D.moveNames[v[k].id]..(k=='disable' and '暂时无法使用。' or '被锁定为使用招式。')) end end
+ for _,k in ipairs({'disable','encore'}) do if v[k] then add(k=='disable' and '定身法' or '再来一次','剩余 '..v[k].left..' 次回合末',D.moveNames[v[k].id]..(k=='disable' and '暂时无法使用。' or '被锁定为使用招式。')) end end
  if v.yawn then add('瞌睡','剩余 '..v.yawn..' 次回合末','届时可能陷入睡眠；换下后解除。') end
  if v.dig then add('挖洞蓄力','下次行动','处于地下，下一次行动继续挖洞。') end
- for _,r in ipairs({{'watersport','玩水','场上火属性招式威力降低。'},{'mudsport','玩泥','场上电属性招式威力降低。'},{'foresight','识破','受到识破相关命中与属性效果影响。'},{'minimize','变小','踩踏会造成更高伤害。'},{'flashfire','引火强化','火属性招式威力提高。'},{'grudge','怨念','被直接击倒时，可能令该招式 PP 归零。'}}) do if v[r[1]] then add(r[2],r[1]=='grudge' and '至下次行动' or '持续至换下',r[3]) end end
+ for _,r in ipairs({{'foresight','识破','受到识破相关命中与属性效果影响。'},{'minimize','变小','踩踏会造成更高伤害。'},{'flashfire','引火强化','火属性招式威力提高。'},{'grudge','怨念','被直接击倒时，可能令该招式 PP 归零。'}}) do if v[r[1]] then add(r[2],r[1]=='grudge' and '至下次行动' or '持续至换下',r[3]) end end
  return rows
 end
 local function fieldDetail()
  local b=state.battle;local rows={publicEffects(0),publicEffects(1)};fieldPages=1+math.max(1,math.ceil(math.max(#rows[1],#rows[2])/4));modal('对战状态');ui:text('第 '..b.turn..' 回合 · 查看不消耗行动。随机持续效果不公开内部倒计时。',22,62,12,ink,675,nil,1)
  ui:rect(20,86,680,84,'#849789');ui:rect(23,89,674,78,'#fbffe7');ui:text('天气与全场效果',33,96,17,ink)
+ for _,key in ipairs({'watersport','mudsport'}) do if b.field[key] then for side=1,2 do table.insert(rows[side],{D.moveNames[key],'剩余 '..b.field[key]..' 回合','全场对应属性招式威力降至 1/3，换下不解除。'}) end end end;fieldPages=1+math.max(1,math.ceil(math.max(#rows[1],#rows[2])/4))
  local txt=b.weather~='' and (weatherZh[b.weather]..(b.weatherLeft<0 and ' · 持续至天气替换或战斗结束' or ' · 剩余 '..b.weatherLeft..' 回合')) or '正常天气 · 无倒计时';ui:text(txt,33,122,14,ink,650,nil,1);ui:text(b.terrain~='' and '电气场地 · 剩余 '..b.terrainLeft..' 回合' or '当前没有特殊场地。',33,145,12,ink,650,nil,1)
  for side=0,1 do local x=20+side*344;local mon=call(b,'mon',side);ui:rect(x,181,336,230,'#849789');ui:rect(x+3,184,330,224,'#fbffe7');ui:text((side==0 and '我方 · ' or '对方 · ')..mon.name,x+12,192,17,ink,312,nil,1)
   if detailPage==0 then ui:text('能力等级',x+12,223,14,ink);for j,k in ipairs({'atk','def','spa','spd','spe','accuracy','evasion'}) do local v=mon.boosts[k];local bx=x+12+(j-1)%4*79;local by=247+math.floor((j-1)/4)*70;local c=v>0 and '#a43f2a' or v<0 and '#365c97' or ink;ui:rect(bx,by,74,64,v>0 and '#f7dec5' or v<0 and '#d4e3f6' or '#e1e8d3');ui:text(I.stats[k],bx,by+5,12,c,74,'center',1);ui:text((v>0 and '+' or '')..v,bx,by+24,20,c,74,'center',1) end;ui:text('仅显示能力等级修正。',x+12,390,12,ink,310,nil,1)
@@ -345,7 +345,7 @@ local function swap()
  local own=swapOwn<0;local ms=own and state.team or state.lastEnemy;local chosen=own and -1 or swapFoe
  ui:rect(0,0,720,480,'#5b5b66');terminalHead('宝可梦交换',own and '选择换出的伙伴' or '选择加入的伙伴','本轮 '..state.wins..' 胜 / 7');rentalStage(ms,focus<3 and focus or chosen,own and 'swap-own' or 'swap-foe',chosen<0 and {} or {chosen},false)
  talk(own and '从我方队伍中\n选择要换出的宝可梦。' or '换出：'..state.team[swapOwn].name..'\n'..(swapFoe<0 and '请选择对方的一只宝可梦。' or '加入：'..state.lastEnemy[swapFoe].name))
- ui:text('HP、PP、异常状态和道具已恢复。\n对手的招式、特性与道具以观察结果为准。',14,408,12,'#e6e1d3',480,nil,2)
+ ui:text('HP、PP、异常状态和道具已恢复。\n可直接查看对方的全部资料后再交换。',14,408,12,'#e6e1d3',480,nil,2)
  if own then rentalMenu({{'查看资料','swap-info'},{'保持队伍','skip-swap'}}) else rentalMenu({{'查看资料','swap-info'},{'确认交换','exchange',nil,swapFoe<0},{'重新选择','swap-reset'},{'保持队伍','skip-swap'}}) end
  foot(F.get(state,'divisionInfo').name..' · 交换伙伴或保持队伍，继续下一场挑战。')
 end
@@ -425,7 +425,7 @@ draw=function()
  if overlay then ui:finish();if overlay.kind=='history' then historyViewport:SetAsLastSibling();historyBar.parent:SetAsLastSibling() end end;ui=mainUI;viewScale=mainScale;G.scale=mainScale;offsetX=mainX;offsetY=mainY
  pads();for i=#buttons+1,#hitboxes do hitboxes[i].c.name='inactive-input-'..i;hitboxes[i].c:SetVisible(false);hitboxes[i].c.raycastTarget=false end;ui:finish();if queue then updateSprites() end
 end
-local function openMon(m,parent,hidden)if parent then parent.focus=focus;parent.page=detailPage end;overlay={kind='mon',mon=m,parent=parent,hidden=hidden,returnFocus=focus};detailPage=0;summaryMove=0;focus=0 end
+local function openMon(m,parent)if parent then parent.focus=focus;parent.page=detailPage end;overlay={kind='mon',mon=m,parent=parent,returnFocus=focus};detailPage=0;summaryMove=0;focus=0 end
 local function play(events,before)
  if queue or events==lastPlayback then return end
  local opening=events[0] and events[0].kind=='battle_start'
@@ -464,7 +464,7 @@ dispatch=function(key,index)
   if overlay and overlay.kind=='history' then return scrollHistory(delta*H.lineHeight*3)
   elseif overlay and overlay.kind=='mon' and (index=='left' or index=='right') then detailPage=(detailPage+delta+3)%3;summaryMove=0
   elseif overlay and overlay.kind=='mon' and detailPage==2 then
-   local moves=overlay.hidden and overlay.mon.seen or overlay.mon.moves
+   local moves=overlay.mon.moves
    if moves._n>0 then summaryMove=(summaryMove+delta+moves._n)%moves._n end
   elseif not overlay and state.phase=='rental' and (index=='left' or index=='right') then rentalFocus=(rentalFocus+delta+6)%6
   else focus=N.next(N.list(buttons),focus,index) end
@@ -491,7 +491,7 @@ dispatch=function(key,index)
  elseif key=='swap-own' then swapOwn=index;swapFoe=-1;focus=0
  elseif key=='swap-foe' then swapFoe=index
  elseif key=='swap-reset' then swapOwn=-1;swapFoe=-1;focus=0
- elseif key=='swap-info' then local b=N.list(buttons)[focus+1];local candidate=b and (b.key=='swap-own' or b.key=='swap-foe') and b.index or 0;openMon(swapOwn<0 and state.team[candidate] or state.lastEnemy[swapFoe>=0 and swapFoe or candidate],nil,swapOwn>=0)
+ elseif key=='swap-info' then local b=N.list(buttons)[focus+1];local candidate=b and (b.key=='swap-own' or b.key=='swap-foe') and b.index or 0;openMon(swapOwn<0 and state.team[candidate] or state.lastEnemy[swapFoe>=0 and swapFoe or candidate])
  elseif key=='exchange' then if swapOwn>=0 and swapFoe>=0 then if call(state,'exchange',swapOwn,swapFoe) then swapOwn=-1;swapFoe=-1 else print('factory-rejected','交换违反重复物种或道具规则') end end
  elseif key=='skip-swap' then call(state,'exchange');swapOwn=-1;swapFoe=-1;focus=0
  elseif key=='resign-prompt' then overlay={kind='resign',parent=overlay};focus=0

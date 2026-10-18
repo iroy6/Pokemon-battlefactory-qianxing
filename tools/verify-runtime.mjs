@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 import {createStudio, validateServerGiaCompatibility} from '../simulator/dist/studio.mjs';
@@ -15,8 +16,14 @@ const imported = createStudio();
 imported.importData('gia', binary.toString('base64'), 'battle-factory-v7.1.gia');
 const importedSave = imported.archiveData();
 assert.equal(importedSave.assets.scripts.length, 351);
+for (const line of fs.readFileSync(path.join(root,'qianxing/SHA256SUMS.txt'),'utf8').trim().split(/\r?\n/)) {
+  const [expected, file] = line.split('  ');
+  const actual = crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'qianxing',file))).digest('hex');
+  assert.equal(actual, expected, 'Release checksum: ' + file);
+}
 for (const s of importedSave.assets.scripts) {
   assert.equal(s.source, native.assets.scripts.find(x => x.path === s.path)?.source, s.path);
+  assert.equal(s.source, fs.readFileSync(path.join(root,'qianxing/lua',s.path.slice('workspace/battle-factory/lua/'.length)),'utf8'), 'Lua source: ' + s.path);
   const L = lauxlib.luaL_newstate();
   lualib.luaL_openlibs(L);
   try { if (lauxlib.luaL_loadbuffer(L, to_luastring(s.source), null, to_luastring(s.path)))

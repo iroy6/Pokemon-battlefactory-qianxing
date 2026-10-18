@@ -1,8 +1,8 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const D=require('../../src/data/species-data.js'),M=require('../../src/data/meta.js'),E=require('../../src/game/engine.js');
 function battle(move){const s={...D.sets.find(x=>x.num===149),moves:[move,'protect','strength','icebeam'],item:'',ability:''};const t={...D.sets.find(x=>x.num===320),item:'',ability:''};const b=new E.Battle([E.createMon(s)],[E.createMon(t)],44);b.mon(1).hp=b.mon(1).maxhp=5000;b.secondary=(side,chance)=>chance>0;b.events=[];return b;}
-test('competitive additions retain Gen IV numbers and actual contact classifications',()=>{
- assert.equal(M.moves.dracometeor.power,140);assert.equal(M.moves.poisonjab.power,80);assert.equal(M.moves.scald.power,80);assert.equal(M.moves.shadowsneak.priority,1);
+test('competitive additions use Gen IX numbers and actual contact classifications',()=>{
+ assert.equal(M.moves.dracometeor.power,130);assert.equal(M.moves.poisonjab.power,80);assert.equal(M.moves.scald.power,80);assert.equal(M.moves.shadowsneak.priority,1);
  assert.equal(M.moves.seedbomb.contact,false);assert.equal(M.moves.poisonjab.contact,true);assert.equal(M.moves.flareblitz.contact,true);
 });
 test('Earth Power and Bug Buzz lower special defense; soundproof blocks Bug Buzz',()=>{

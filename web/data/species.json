@@ -144,7 +144,7 @@
       "sourceIndex": 4,
       "sourceTable": 1,
       "pool": 1,
-      "bst": 385,
+      "bst": 395,
       "origin": "frontier",
       "generation": 1
     },
@@ -181,7 +181,7 @@
       "sourceIndex": 5,
       "sourceTable": 1,
       "pool": 1,
-      "bst": 385,
+      "bst": 395,
       "origin": "frontier",
       "generation": 1
     },
@@ -255,7 +255,7 @@
       "sourceIndex": 7,
       "sourceTable": 1,
       "pool": 1,
-      "bst": 300,
+      "bst": 320,
       "origin": "frontier",
       "generation": 1
     },
@@ -1032,7 +1032,7 @@
       "sourceIndex": 28,
       "sourceTable": 1,
       "pool": 1,
-      "bst": 352,
+      "bst": 377,
       "origin": "frontier",
       "generation": 1
     },
@@ -2809,7 +2809,7 @@
       "sourceIndex": 7,
       "sourceTable": 2,
       "pool": 2,
-      "bst": 469,
+      "bst": 479,
       "origin": "frontier",
       "generation": 1
     },
@@ -3290,7 +3290,7 @@
       "sourceIndex": 77,
       "sourceTable": 2,
       "pool": 2,
-      "bst": 480,
+      "bst": 490,
       "origin": "frontier",
       "generation": 2
     },
@@ -3327,7 +3327,7 @@
       "sourceIndex": 81,
       "sourceTable": 2,
       "pool": 2,
-      "bst": 450,
+      "bst": 460,
       "origin": "frontier",
       "generation": 2
     },
@@ -3475,7 +3475,7 @@
       "sourceIndex": 123,
       "sourceTable": 2,
       "pool": 1,
-      "bst": 414,
+      "bst": 454,
       "origin": "frontier",
       "generation": 3
     },
@@ -3771,7 +3771,7 @@
       "sourceIndex": 45,
       "sourceTable": 3,
       "pool": 3,
-      "bst": 500,
+      "bst": 510,
       "origin": "frontier",
       "generation": 1
     },
@@ -3808,7 +3808,7 @@
       "sourceIndex": 52,
       "sourceTable": 3,
       "pool": 2,
-      "bst": 490,
+      "bst": 500,
       "origin": "frontier",
       "generation": 1
     },
@@ -3993,7 +3993,7 @@
       "sourceIndex": 94,
       "sourceTable": 3,
       "pool": 2,
-      "bst": 480,
+      "bst": 490,
       "origin": "frontier",
       "generation": 1
     },
@@ -4400,7 +4400,7 @@
       "sourceIndex": 190,
       "sourceTable": 3,
       "pool": 3,
-      "bst": 500,
+      "bst": 510,
       "origin": "frontier",
       "generation": 2
     },
@@ -4992,7 +4992,7 @@
       "sourceIndex": 398,
       "sourceTable": 3,
       "pool": 3,
-      "bst": 505,
+      "bst": 515,
       "origin": "frontier",
       "generation": 4
     },
@@ -5732,7 +5732,7 @@
       "sourceIndex": 55,
       "sourceTable": 4,
       "pool": 4,
-      "bst": 600,
+      "bst": 580,
       "origin": "frontier",
       "generation": 4
     },

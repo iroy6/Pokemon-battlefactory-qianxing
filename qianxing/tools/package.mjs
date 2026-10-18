@@ -17,6 +17,7 @@ if (process.argv.includes('--extract')) {
   delete save.scriptSync;
   for (const s of save.assets.scripts) {
     assert.ok(s.path.startsWith(prefix) && !s.path.includes('..'));
+    s.source = s.source.replace(/\r\n/g, '\n');
     const file = path.join(root, 'lua', s.path.slice(prefix.length));
     fs.mkdirSync(path.dirname(file), {recursive:true});
     fs.writeFileSync(file, s.source);
@@ -25,7 +26,11 @@ if (process.argv.includes('--extract')) {
   save = JSON.parse(fs.readFileSync(savePath, 'utf8'));
   for (const s of save.assets.scripts) {
     assert.ok(s.path.startsWith(prefix) && !s.path.includes('..'));
-    s.source = fs.readFileSync(path.join(root, 'lua', s.path.slice(prefix.length)), 'utf8');
+    const file = path.join(root, 'lua', s.path.slice(prefix.length));
+    const source = fs.readFileSync(file, 'utf8');
+    s.source = source.replace(/\r\n/g, '\n');
+    // Match the repository's LF policy before hashing and embedding the scripts.
+    if (s.source !== source) fs.writeFileSync(file, s.source);
   }
   const studio = createStudio(save);
   const binary = Buffer.from(studio.exportData('gia-combined').data, 'base64');
